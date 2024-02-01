@@ -1,6 +1,5 @@
 .importItems {
-  background: url(/assets/img/importbg.png) no-repeat center top / cover ;
-  height: 100vh;
+  background: url(/assets/img/importbg.png) no-repeat center bottom / cover ;
 }
 
 .import {
