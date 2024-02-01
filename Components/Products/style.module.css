@@ -1,0 +1,40 @@
+.section {
+  background: radial-gradient(64.04% 69.77% at 50% 50%, #222325 0%, #181818 100%);
+}
+
+.sectioItems {
+  padding-top: 5rem;
+}
+
+.sectionTitles {
+  display: flex;
+}
+
+.sectionProducts {
+  padding-bottom: 7rem;
+}
+
+.sectioTitle {
+  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  margin-right: 3.33rem;
+}
+
+.white {
+  color: var(--white, #FFF);
+}
+
+.sectionText {
+  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+}
+
+.sectionProducts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.productsLinks {
+  display: flex;
+  align-items: center;
+  margin: 3rem 6rem 0 0;
+}

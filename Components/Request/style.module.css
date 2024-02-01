@@ -1,0 +1,55 @@
+.sectionTitle {
+  color: var(--white);
+  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.sectionSpan {
+  color: var(--electric);
+}
+
+.sectionLinks {
+  display: block;
+  color: var(--white);
+  font: 400 1em "Gotham-Light", sans-serif;
+  margin-bottom: 15px;
+}
+
+.phone {
+  font-size: 1.22em;
+}
+
+.flex,
+.wroldItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionContactsLinks {
+  font: 400 1em "Gotham-Light", sans-serif;
+  border-bottom: 3px solid var(--electric);
+  padding: 3rem 0 0.7rem;
+  margin: 0 4rem;
+}
+
+.contactIcon {
+  margin-right: 10px;
+}
+
+.contactLink {
+  color: var(--green, #63DEA6);
+  border-bottom: 3px solid var(--green);
+}
+
+.requestLink {
+  color: var(--electric, #04C1C1);
+}
+
+.wroldItem {
+  margin-top: 4rem;
+}

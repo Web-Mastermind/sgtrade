@@ -1,0 +1,112 @@
+.importItems {
+  background: url(/assets/img/importbg.png) no-repeat center top / cover ;
+  
+}
+
+.import {
+  padding: 7rem 0;
+}
+
+.importTitle,
+.articleTitle,
+.deliveryTitle {
+color: var(--white);
+font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+}
+
+.importImage {
+  margin: 1.5rem 0;
+}
+
+.importText,
+.articleText,
+.palletText,
+.optionText {
+color: var(--white);
+font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+}
+
+.width {
+  width: 29em;
+}
+
+.importSection {
+  background: radial-gradient(64.04% 69.77% at 50% 50%, #222325 0%, #181818 100%);
+}
+
+.padd {
+  margin-bottom: 1.5rem;
+}
+
+.sectionImage {
+  margin-top: 2.5rem;
+}
+
+.importArticle {
+  padding-top: 5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.articleTitle,
+.deliveryTitle {
+  font-weight: 500;
+  font-family: "PlayFairDisplay-Medium", sans-serif;
+}
+
+.articleTextCont {
+  margin-top: 40px;
+}
+
+.articleTextCont {
+  border-left: 3px solid var(----electric, #04C1C1);
+  height: 15rem;
+}
+
+.articleText {
+  color: var(--sky);
+  padding: 50px 0 0 25px;
+}
+
+.orderContainer {
+  gap: 15px;
+  margin: 7rem 0;
+}
+
+.articleDelivery {
+  background-color: var(--black);
+  width: 630px;
+  padding: 45px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.deliveryImage {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.palletText {
+ font-size: 1.55em;
+ margin-left: 2rem;
+}
+
+.optionText {
+  font-size: 1.22em;
+  background: linear-gradient(-20.01deg, rgba(226, 243, 253, 0.24) 3.553%,rgba(147, 225, 237, 0.24) 24.988%,rgba(2, 185, 243, 0.24) 49.078%,rgba(2, 138, 190, 0.24) 74.151%,rgba(0, 92, 157, 0.24) 97.946%);
+  padding: 15px 100px;
+  margin: 10px 10px;
+}

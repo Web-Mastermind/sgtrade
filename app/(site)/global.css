@@ -1,0 +1,93 @@
+:root {
+  --electric-gradient: linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  --main-dark-gradient: linear-gradient(217deg, #242627 1.99%, #161718 101.43%);
+  --electric: #04C1C1;
+  --sky: #E2F3FD;
+  --grey: #C8C8C8;
+  --white: #fff;
+  --black: #111010;
+  --green: #63DEA6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  font-family: "RadioCanada-Regular";
+  font-size: 18px;
+  background: var(--main-dark-gradient);
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@font-face {
+  font-family: "Gotham-Light";
+  src: url(../../public/assets/fonts/gotham_light.otf);
+}
+
+@font-face {
+  font-family: "Gotham-Regular";
+  src: url(../../public/assets/fonts/gotham_regular.otf);
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url(../../public/assets/fonts/gotham_medium.otf);
+}
+
+@font-face {
+  font-family: "PlayFairDisplay-Regular";
+  src: url(../../public/assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PlayFairDisplay-Medium";
+  src: url(../../public/assets/fonts/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: "PlayFairDisplay-Bold";
+  src: url(../../public/assets/fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "RadioCanada-Light";
+  src: url(../../public/assets/fonts/RadioCanada-Light.ttf);
+}
+
+@font-face {
+  font-family: "RadioCanada-Regular";
+  src: url(../../public/assets/fonts/RadioCanada-Regular.ttf);
+}
+
+@font-face {
+  font-family: "RadioCanada-Medium";
+  src: url(../../public/assets/fonts/RadioCanada-Medium.ttf);
+}

@@ -1,0 +1,57 @@
+.articleTitle {
+  color: var(--white, #FFF);
+  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  margin-right: 3rem;
+}
+
+.articleItems {
+  padding-top: 6rem;
+}
+
+.articleItems,
+.articleTextItems,
+.trophy {
+  display: flex;
+  align-items: center;
+}
+
+.articleTextItems {
+  border-bottom: 3px solid var(--green);
+  height: 50px;
+}
+
+.quoteIcon {
+  margin-right: 10px;
+}
+
+.articleText {
+  color: var(--green, #63DEA6);
+  font: 500 1em "RadioCanada-Regular", sans-serif;
+}
+
+.trophy {
+  margin-top: 5rem;
+  align-items: baseline;
+  gap: 3rem;
+}
+
+.trophyItems {
+  max-width: 305px;
+  margin: 0 auto;
+}
+
+.trophyTitle {
+  color: var(--sky, #E2F3FD);
+  font: 500 1.44em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  margin: 2rem 0;
+}
+
+.selection {
+  max-width: 17ch;
+}
+
+.trophyText {
+  color: var(--grey, #C8C8C8);
+  font: 300 1em/125% "RadioCanada-Medium", sans-serif;
+  padding-bottom: 2rem;
+}

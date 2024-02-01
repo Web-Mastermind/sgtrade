@@ -1,0 +1,74 @@
+.header {
+  background-color: var(--black);
+  padding-bottom: 20px;
+}
+
+.flex,
+.navLinks,
+.burgerList {
+  display: flex;
+  align-items: center;
+}
+
+.headerItems {
+  justify-content: space-between;
+  padding-top: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.headerList {
+  border-bottom: 3px solid var(--electric);
+  height: 50px;
+}
+
+.listIcon {
+  margin-right: 5px;
+}
+
+.listText {
+  font: 500 18px "RadioCanada-Medium", sans-serif;
+  background: var(--electric-gradient, linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  border-bottom: 3px solid linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  background-color: var(--black);
+  padding: 5rem 0px 2rem;
+  width: 100%;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 7px rgba(3, 60, 70, 0.4));
+  z-index: 2;
+}
+
+.burgerList {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.navLinks {
+  color: var(--electric);
+}
+
+.linkIcons {
+  margin-right: 10px;
+}
+
+.phone,
+.mail {
+  color: var(--white);
+  font: 400 1.22em "Gotham-Regular", sans-serif;
+}
+
+.mail {
+  font-size: 18px;
+  font-family: "Gotham-Light", sans-serif;
+}
+
+

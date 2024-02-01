@@ -1,0 +1,33 @@
+.main {
+  background: url(../../public/assets/img/homebg.png) no-repeat center top / cover;
+}
+
+.swiperItemsMain {
+  display: flex;
+  padding: 6rem 2rem 0 3rem;
+}
+
+.mainTitle {
+  color: var(--white);
+  font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  margin-bottom: 1.20em;
+}
+
+.titleSpan {
+  color: var(--electric, #04C1C1);
+}
+
+.mainText {
+  color: var(--grey, #C8C8C8);
+  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  margin-bottom: 3.6em;
+}
+
+.linkItems {
+  color: var(--black, #111010);
+  background: var(--green, #63DEA6);
+  font: 500 1em "RadioCanada-Medium", sans-serif;
+  padding: 19px 20px;
+  display: inline-flex;
+  align-items: center;
+}
