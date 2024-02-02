@@ -1,0 +1,37 @@
+.newsTitle {
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  padding: 5rem 0 2.5rem;
+}
+
+.newsItems {
+  display: flex;
+  gap: 20px;
+}
+
+.white {
+  color: var(--white);
+}
+
+.newsSection {
+  width: 17rem;
+  background-color: var(--black);
+  padding: 20px 20px;
+}
+
+.newsSectionItems {
+  font: 1.33em/125% "PlayFairDisplay-Medium", sans-serif;
+  width: 15ch;
+  margin-bottom: 10px;
+}
+
+.calendarItem,
+.calendarAdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dataText {
+  color: var(--dark-grey);
+  font:  0.88em/0.83em "Gotham-Regular", sans-serif;
+}
