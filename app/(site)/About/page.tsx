@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "./style.module.css"
+import AboutSection from "@/Components/Fresh"
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
           </div>
         </div>
       </main>
+      <AboutSection />
     </>
   )
 }
