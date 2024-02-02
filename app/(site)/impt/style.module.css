@@ -29,16 +29,8 @@ font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
   width: 29em;
 }
 
-.importSection {
-  background: radial-gradient(64.04% 69.77% at 50% 50%, #222325 0%, #181818 100%);
-}
-
 .padd {
   margin-bottom: 1.5rem;
-}
-
-.sectionImage {
-  margin-top: 2.5rem;
 }
 
 .importArticle {
