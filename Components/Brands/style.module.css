@@ -1,0 +1,19 @@
+.sectionBrands {
+  background: radial-gradient(64.04% 69.77% at 50% 50%, #222325 0%, #181818 100%);
+  padding: 7rem 0;
+}
+
+.brandsTitle {
+  color: var(--white);
+  font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.brandsText {
+  color: var(--white);
+  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;  
+}
+
+.brandsImage {
+  margin-top: 2.5rem;
+}
