@@ -1,0 +1,29 @@
+.aboutMain {
+  background: url(/assets/img/Aboutbg.png) no-repeat center bottom / cover ;
+}
+
+.aboutItems {
+  background: linear-gradient(71.91deg, rgba(0, 0, 0, 0.82) 25.637%,rgba(0, 0, 0, 0) 123.211%);
+}
+
+.aboutTitle {
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  padding-top: 7rem;
+}
+
+.aboutImage {
+  margin: 2rem 0;
+}
+
+.white {
+  color: var(--white);
+}
+
+.aboutText {
+  font: 1.22em/145%  "RadioCanada-Light", sans-serif;
+  padding-bottom: 7rem;
+}
+
+.width {
+  width: 27em;
+}
