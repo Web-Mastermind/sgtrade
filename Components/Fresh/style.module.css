@@ -1,26 +1,50 @@
-.flex {
-  display: flex;
-  justify-content: space-between;
+.aboutItems {
+  margin: 4rem 0;
 }
 
-.articleTextCont {
+.flex,
+.aboutImage,
+.operation {
+  display: flex;
+  align-items: center;
+}
+
+.between {
+  justify-content: space-around;
+}
+
+.aboutTextCont {
   margin-top: 40px;
   border-left: 3px solid var(----electric, #04C1C1);
-  height: 20rem;
+  height: 30rem;
+  width: 30em;
 }
 
-.articleText {
+.aboutText {
   color: var(--sky);
   font: 1.22em/145% "RadioCanada-Light", sans-serif;  
-  padding: 4rem 0 2rem 25px;
+  padding: 0rem 0 2rem 2rem;
 }
 
 .width {
-  width: 29em;
+  padding-top: 3.5rem;
 }
 
 .aboutTitle {
   color: var(--electric);
   font: 2em/107.7% "PlayFairDisplay-Regular", sans-serif;
   text-align: center;  
+}
+
+.operation {
+  background: url(/assets/img/operbg.png) no-repeat center top / cover;
+  justify-content: center;
+}
+
+.operationText {
+  width: 42rem;
+  color: var(--grey);
+  font: 1.55em/145% "RadioCanada-Regular", sans-serif;
+  text-align: center;
+  padding: 5rem 0;
 }
