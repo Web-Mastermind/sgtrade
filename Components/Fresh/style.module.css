@@ -15,7 +15,7 @@
 
 .aboutTextCont {
   margin-top: 40px;
-  border-left: 3px solid var(----electric, #04C1C1);
+  border-left: 2px solid var(----electric, #04C1C1);
   height: 30rem;
   width: 30em;
 }
@@ -39,6 +39,7 @@
 .operation {
   background: url(/assets/img/operbg.png) no-repeat center top / cover;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .operationText {
