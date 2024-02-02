@@ -1,0 +1,75 @@
+.importArticle {
+  padding-top: 5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.articleTitle,
+.deliveryTitle  {
+  color: var(--white);
+  font: 3em/107% "PlayFairDisplay-Medium", sans-serif;
+}
+
+.articleText {
+  color: var(--sky);
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;  
+  padding: 50px 0 0 25px;
+}
+
+.articleTextCont {
+  margin-top: 40px;
+  border-left: 3px solid var(----electric, #04C1C1);
+  height: 15rem;
+}
+
+.width {
+  width: 29em;
+}
+
+.orderContainer {
+  gap: 15px;
+  margin: 7rem 0;
+}
+
+.articleDelivery {
+  background-color: var(--black);
+  width: 630px;
+  padding: 45px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.deliveryImage {
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.palletText,
+.optionText {
+  color: var(--white);
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;  
+}
+
+.palletText {
+  font-size: 1.55em;
+  margin-left: 2rem;
+ }
+ 
+ .optionText {
+   background: linear-gradient(-20.01deg, rgba(226, 243, 253, 0.24) 3.553%,rgba(147, 225, 237, 0.24) 24.988%,rgba(2, 185, 243, 0.24) 49.078%,rgba(2, 138, 190, 0.24) 74.151%,rgba(0, 92, 157, 0.24) 97.946%);
+   padding: 15px 100px;
+   margin: 10px 10px;
+ }
