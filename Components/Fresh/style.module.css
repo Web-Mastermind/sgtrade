@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleTextCont {
+  margin-top: 40px;
+  border-left: 3px solid var(----electric, #04C1C1);
+  height: 20rem;
+}
+
+.articleText {
+  color: var(--sky);
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;  
+  padding: 4rem 0 2rem 25px;
+}
+
+.width {
+  width: 29em;
+}
+
+.aboutTitle {
+  color: var(--electric);
+  font: 2em/107.7% "PlayFairDisplay-Regular", sans-serif;
+  text-align: center;  
+}
