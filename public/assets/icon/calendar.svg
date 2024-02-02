@@ -1,0 +1,18 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip153_1518">
+			<rect id="calendar-event" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="calendar-event" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip153_1518)">
+		<path id="Vector" d="M4.58594 5.58582C4.96094 5.21069 5.46973 5 6 5L18 5C18.5303 5 19.0391 5.21069 19.4141 5.58582C19.7891 5.96088 20 6.46954 20 7L20 19C20 19.5305 19.7891 20.0391 19.4141 20.4142C19.0391 20.7893 18.5303 21 18 21L6 21C5.46973 21 4.96094 20.7893 4.58594 20.4142C4.21094 20.0391 4 19.5305 4 19L4 7C4 6.46954 4.21094 5.96088 4.58594 5.58582Z" stroke="#63DEA6" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M16 3L16 7" stroke="#63DEA6" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M8 3L8 7" stroke="#63DEA6" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M4 11L20 11" stroke="#63DEA6" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M10 15L10 17L8 17L8 15L10 15Z" stroke="#63DEA6" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+	</g>
+</svg>
