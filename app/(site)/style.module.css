@@ -5,6 +5,7 @@
 .swiperItemsMain {
   display: flex;
   padding: 6rem 2rem 0 3rem;
+  margin-top: 100px;
 }
 
 .mainTitle {
