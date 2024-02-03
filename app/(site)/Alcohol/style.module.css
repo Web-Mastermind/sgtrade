@@ -1,0 +1,31 @@
+.alcoholArticle {
+  background: url(/assets/img/alcoholbg.png) no-repeat center bottom / cover ;
+}
+
+.alcoholItems {
+  margin-top:5.55em;
+}
+
+.alcoholTitle {
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  padding: 4rem 0 6rem;
+}
+
+.white {
+  color: var(--white);
+}
+
+.flex {
+  display: flex;
+}
+
+.calendarIconItem {
+  margin-right: 10px;
+}
+
+.dataText {
+  color: var(--grey);
+  font: 1.22em/1.16em "Gotham-Light", sans-serif ;
+  padding-bottom: 2rem;
+}
+
