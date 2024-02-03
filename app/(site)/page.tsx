@@ -13,7 +13,9 @@ import { swiper } from "@/src/Types/Interface"
 import Request from '@/Components/Request';
 import Quote from '@/Components/Quote';
 
-const url = 'https://json-server-vercel-sgtrade.vercel.app/swiper'
+const url: string = process.env.NEXT_PUBLIC_DATA || "";
+
+
 const Home = async () => {
   const { data } = await axios.get(url)
   return (
