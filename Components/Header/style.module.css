@@ -1,10 +1,15 @@
 .header {
   padding-bottom: 20px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background:linear-gradient(217deg, #242627 1.99%, #161718 101.43%);
+  z-index: 5;
 }
 
-.flex,
-.navLinks,
-.burgerList {
+.flex {
   display: flex;
   align-items: center;
 }
@@ -12,7 +17,6 @@
 .headerItems {
   justify-content: space-between;
   padding-top: 20px;
-  position: relative;
   z-index: 3;
 }
 
@@ -35,14 +39,25 @@
 }
 
 .nav {
-  position: absolute;
+  right: -100%;
+  width: 30%;
   top: 0;
-  background-color: var(--black);
-  padding: 5rem 0px 2rem;
-  width: 100%;
+  height: 100vh;
+  z-index: 8;
+  display: flex;
+  position: absolute;
+  padding-top: 35px;
+  gap: 20px;
   border-radius: 10px;
+  padding-inline: 2rem;
+  transition: all 0.5s;
+  flex-direction: column;
+  background-color: var(--black);
   filter: drop-shadow(0px 0px 7px rgba(3, 60, 70, 0.4));
-  z-index: 2;
+}
+
+.showMenu {
+  right: 0;
 }
 
 .burgerList {
@@ -53,21 +68,95 @@
 
 .navLinks {
   color: var(--electric);
+  display: flex;
+  align-items: center;
 }
 
 .linkIcons {
   margin-right: 10px;
 }
 
-.phone,
-.mail {
+
+
+
+
+.nav .navLinks:first-child {
   color: var(--white);
   font: 400 1.22em "Gotham-Regular", sans-serif;
 }
 
-.mail {
+.nav .navLinks:nth-child(2) {
   font-size: 18px;
+  color:var(--white);
   font-family: "Gotham-Light", sans-serif;
 }
 
+.menu {
+  --s: 30px; /* control the size */
+  --c: #04c1c1c1; /* the color */
+  
+  height: var(--s);
+  aspect-ratio: 1;
+  border: none;
+  padding: 0;
+  border-inline: calc(var(--s)/2) solid #0000; 
+  box-sizing: content-box;
+  --_g1: linear-gradient(var(--c) 20%,#0000 0 80%,var(--c) 0) 
+         no-repeat content-box border-box;
+  --_g2: radial-gradient(circle closest-side at 50% 12.5%,var(--c) 95%,#0000) 
+         repeat-y content-box border-box;
+  background: 
+    var(--_g2) left  var(--_p,0px) top,
+    var(--_g1) left  calc(var(--s)/10 + var(--_p,0px)) top,
+    var(--_g2) right var(--_p,0px) top,
+    var(--_g1) right calc(var(--s)/10 + var(--_p,0px)) top;
+  background-size: 
+    20% 80%,
+    40% 100%;
+  position: relative;
+  clip-path: inset(0 25%);
+  -webkit-mask: linear-gradient(90deg,#0000,#000 25% 75%,#0000);
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_s,.3s), 
+    clip-path 0s var(--_s,.6s);
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  z-index: 10;
+}
+.menu:before,
+.menu:after {
+  content:"";
+  position: absolute;
+  border-radius: var(--s);
+  inset: 40% 0;
+  background: var(--c);
+  transition: transform .3s calc(.3s - var(--_s,.3s));
+}
 
+.menu:checked {
+  clip-path: inset(0);
+  --_p: calc(-1*var(--s));
+  --_s: 0s;
+}
+.menu:checked:before {
+  transform: rotate(45deg);
+}
+.menu:checked:after {
+  transform: rotate(-45deg);
+}
+.menu:focus-visible {
+  clip-path: none;
+  -webkit-mask: none;
+  border: none;
+  outline: 2px solid var(--c);
+  outline-offset: 5px;
+}
+
+
+@media (max-width:576px) {
+  .nav {
+    width: 100%;
+  }
+}
