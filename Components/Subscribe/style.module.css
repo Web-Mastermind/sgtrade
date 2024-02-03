@@ -1,0 +1,70 @@
+.newsReqsub,
+.requestContainer,
+.subscribeContainer,
+.subscribeLink {
+  display: flex;
+}
+
+.white {
+  color: var(--white);
+}
+
+.newsReqsub {
+  justify-content: space-between;
+}
+
+.requestContainer,
+.subscribeContainer {
+  background: url(/assets/img/requestbg.png) no-repeat center top / cover;
+  width: 39.375rem;
+  align-items: center;
+  justify-content: center;
+  margin: 7rem 0;
+  padding: 2.5rem 0;
+}
+
+.requestText {
+  width: 32ch;
+  color: var(--black);
+  font: 0.88em/125% "Gotham-Light", sans-serif;
+}
+
+.requestLink {
+  background-color: var(--black);
+  padding: 0.7rem 0.7rem;
+}
+
+.requestImage {
+  margin-right: 5px;
+}
+
+.requestLinkItem {
+  font: 1em/0.94em "Gotham-Light", sans-serif; 
+}
+
+.subscribeContainer {
+  background: url(/assets/img/subscribebg.png) no-repeat center top / cover
+}
+
+.subscribeText {
+  font: 1.11em/125% "Gotham-Light", sans-serif;
+  width: 12ch;
+}
+
+.subscribeLink {
+  background-color: var(--white);
+  padding: 0.3rem 1.5rem;
+}
+
+.subscribeButton {
+  margin-right: 10px;
+}
+
+.subscribeLink input {
+  outline: none;
+}
+
+.subscribeLink input::placeholder {
+  color: rgb(184, 184, 184);
+  font: 1em/0.94em "Gotham-Light", sans-serif;
+} 
