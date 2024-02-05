@@ -4,7 +4,7 @@ export const NavLinks = [
   { id: 3, to: "/impt", title: "Import/Export", imageSrc: "/assets/icon/import.svg", alt: "Phone Icon", width: 15, height: 15 },
   { id: 4, to: "/About", title: "About Us", imageSrc: "/assets/icon/about.svg", alt: "Phone Icon", width: 15, height: 15 },
   { id: 5, to: "/News", title: "News", imageSrc: "/assets/icon/news.svg", alt: "Phone Icon", width: 15, height: 15 },
-  { id: 6, to: "/contacts", title: "Contacts", imageSrc: "/assets/icon/contacts.svg", alt: "Phone Icon", width: 15, height: 15 },
+  { id: 6, to: "/Contacts", title: "Contacts", imageSrc: "/assets/icon/contacts.svg", alt: "Phone Icon", width: 15, height: 15 },
   { id: 7, to: "/Catalog", title: "Catalog", imageSrc: "/assets/icon/catalog.svg", alt: "Phone Icon", width: 15, height: 15 }
 ]
 

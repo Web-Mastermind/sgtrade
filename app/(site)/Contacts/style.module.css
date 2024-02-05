@@ -1,0 +1,69 @@
+.contactsItems {
+  margin-top: 5.5rem;
+}
+
+.contactsMain {
+  width: 38rem;
+  background-color: var(--black);
+  padding: 3rem 3rem;
+}
+
+.contactsTitle {
+  color: var(--white);
+  font: 2.7em/107%  "PlayFairDisplay-Bold", sans-serif;
+  padding: 2rem 0;
+}
+
+.flex,
+.contactsContainer {
+  display: flex;
+}
+
+.contactsContainer {
+  gap: 15px;
+}
+
+.contactsLink {
+  justify-content: space-between;
+}
+
+.contactsUpLinks {
+  align-items: center;
+  color: var(--white);
+  font: 400 1em "Gotham-Light", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.phone {
+  font-family: "Gotham-Regular", sans-serif;
+}
+
+.linkIcons {
+  margin-right: 1rem;
+}
+
+.leftTextItem,
+.rightTextItem {
+  color: var(--grey);
+  font: 400 0.70em "Gotham-Light", sans-serif;
+}
+
+.leftTextItem {
+  margin: 0 10px 10px 0;
+}
+
+.rightTextItem {
+  color: var(--white);
+  font-size: 0.80em;
+  font-family: "Gotham-Regular", sans-serif;
+  margin-bottom: 7px;
+}
+
+.adress {
+  max-width: 21ch;
+}
+
+.contactsSocLinks:not(:last-child) {
+  margin-right: 28px;
+  height: fit-content;
+}
