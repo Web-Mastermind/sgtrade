@@ -4,28 +4,33 @@ import styles from "./style.module.css"
 import Link from "next/link"
 import { useState } from "react"
 import { NavLinks } from "@/src/links/Links"
+import { useOutsideClick } from "../ref"
 
 const Header = () => {
   const [burgerMenuOpen, setBurgerMenuOpen] = useState(false);
 
+  const ref = useOutsideClick(() => {
+    console.log('click outsides');
+    setBurgerMenuOpen(false);
+  })
   const toggleBurgerMenu = () => {
     setBurgerMenuOpen(!burgerMenuOpen);
+
   };
   return (
-    <header className={styles.header}>
+    <header ref={ref} className={styles.header}>
       <div className="container">
         <div className={`${styles.headerItems} ${styles.flex}`}>
           <div className={`${styles.headerList} ${styles.flex}`}>
             <Image className={styles.listIcon} src="/assets/icon/list.svg" alt="list icon" width={22} height={22} />
-            <p className={styles.listText}>Sitat əldə edin</p>
+            <Link href="/Send"><p className={styles.listText}>Təklif əldə edin</p></Link>
           </div>
           <Link href="/"><Image src="/assets/icon/barcode.png" alt="Barcode icon" width={156} height={60} /></Link>
           <div className={styles.burgerIcon}>
-            <input type="checkbox" role="button" aria-label="Display the menu" className={styles.menu} onClick={toggleBurgerMenu} />
+            <input type="checkbox" role="button" aria-label="Display the menu" className={burgerMenuOpen ? styles.menu : styles.hideMenu} onClick={() => toggleBurgerMenu()} />
           </div>
         </div>
       </div>
-
       <nav className={`${styles.nav} ${burgerMenuOpen ? styles.showMenu : ''}`}>
         {
           NavLinks.map(({ id, to, title, imageSrc, alt, width, height }) => {
