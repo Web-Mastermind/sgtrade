@@ -76,10 +76,6 @@
   margin-right: 10px;
 }
 
-
-
-
-
 .nav .navLinks:first-child {
   color: var(--white);
   font: 400 1.22em "Gotham-Regular", sans-serif;
@@ -91,7 +87,8 @@
   font-family: "Gotham-Light", sans-serif;
 }
 
-.menu {
+.menu,
+.hideMenu {
   --s: 30px; /* control the size */
   --c: #04c1c1c1; /* the color */
   
@@ -125,8 +122,11 @@
   appearance:none;
   z-index: 10;
 }
+
 .menu:before,
-.menu:after {
+.menu:after ,
+.hideMenu:before,
+.hideMenu:after {
   content:"";
   position: absolute;
   border-radius: var(--s);
@@ -135,17 +135,18 @@
   transition: transform .3s calc(.3s - var(--_s,.3s));
 }
 
-.menu:checked {
+.menu {
   clip-path: inset(0);
   --_p: calc(-1*var(--s));
   --_s: 0s;
 }
-.menu:checked:before {
+.menu::before {
   transform: rotate(45deg);
 }
-.menu:checked:after {
+.menu::after {
   transform: rotate(-45deg);
 }
+
 .menu:focus-visible {
   clip-path: none;
   -webkit-mask: none;
@@ -153,7 +154,6 @@
   outline: 2px solid var(--c);
   outline-offset: 5px;
 }
-
 
 @media (max-width:576px) {
   .nav {
