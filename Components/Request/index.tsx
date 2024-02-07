@@ -14,8 +14,8 @@ const Request = () => {
             <Link className={`${styles.sectionLinks} ${styles.phone} ${styles.center}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
           </div>
           <div className={`${styles.sectionContacts} ${styles.center} ${styles.flex}`}>
-            <Link className={`${styles.sectionContactsLinks} ${styles.contactLink} ${styles.flex}`} href="/"><Image className={styles.contactIcon} src="/assets/icon/book.svg" alt="Contact Icon" width={22} height={22} />Bütün kontaktlar</Link>
-            <Link className={`${styles.sectionContactsLinks} ${styles.requestLink} ${styles.flex}`} href="/"><Image className={styles.contactIcon} src="/assets/icon/send.svg" alt="Contact Icon" width={22} height={22} />Sorğu göndərmək</Link>
+            <Link className={`${styles.sectionContactsLinks} ${styles.contactLink} ${styles.flex}`} href="/Contacts"><Image className={styles.contactIcon} src="/assets/icon/book.svg" alt="Contact Icon" width={22} height={22} />Bütün kontaktlar</Link>
+            <Link className={`${styles.sectionContactsLinks} ${styles.requestLink} ${styles.flex}`} href="/Send"><Image className={styles.contactIcon} src="/assets/icon/send.svg" alt="Contact Icon" width={22} height={22} />Sorğu göndərmək</Link>
           </div>
           <div className={styles.wroldItem}>
             <Image className={styles.contactWorld} src={world} alt="Earth Image" />
