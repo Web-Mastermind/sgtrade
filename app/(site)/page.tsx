@@ -28,14 +28,14 @@ const Home = async () => {
                 data.map(({ id, title, span, text, img, slideImage }: swiper) => {
                   return (
                     <SwiperSlide key={id}>
-                      <div className={styles.swiperItemsMain}>
+                      <div className={`${styles.swiperItemsMain} ${styles.flex}`}>
                         <div className={styles.swiperItems}>
                           <h1 className={styles.mainTitle}>{title} <span className={styles.titleSpan}>{span}</span></h1>
                           <p className={styles.mainText}>{text}</p>
                           <Link className={styles.linkItems} href={"/"}><Image src={img} alt="Button icon" width={22} height={22} />İçkiləri araşdırın</Link>
                         </div>
                         <div className={styles.sliderImg}>
-                          <Image className={styles.sliderImgItem} src={slideImage} alt="Coca-Cola image" width={530} height={490} />
+                          <Image className={`${styles.sliderImgItem} ${styles.flex}`} src={slideImage} alt="Coca-Cola image" width={530} height={490} />
                         </div>
                       </div>
                     </SwiperSlide>
