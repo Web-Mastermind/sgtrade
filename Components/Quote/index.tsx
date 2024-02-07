@@ -2,8 +2,6 @@ import Image from "next/image"
 import styles from "./style.module.css"
 import { Trophy } from "@/src/links/Links"
 
-
-
 const Quote = () => {
   return (
     <article className={styles.article}>
