@@ -9,7 +9,7 @@ const Request = () => {
       <div className="container">
         <div className={styles.sectionItems}>
           <div className={styles.mainItems}>
-            <h5 className={`${styles.sectionTitle} ${styles.center}`}>Sitat <span className={styles.sectionSpan} >əldə edin!</span></h5>
+            <h5 className={`${styles.sectionTitle} ${styles.center}`}>Təklif əldə <span className={styles.sectionSpan} >edin!</span></h5>
             <Link className={`${styles.sectionLinks} ${styles.center}`} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
             <Link className={`${styles.sectionLinks} ${styles.phone} ${styles.center}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
           </div>
