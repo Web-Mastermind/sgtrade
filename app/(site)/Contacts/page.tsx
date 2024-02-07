@@ -1,7 +1,8 @@
 import Link from "next/link"
-import styles from "./style.module.css"
 import Image from "next/image"
 import Subscribe from "@/Components/Subscribe"
+import { SocialLinks } from "@/src/links/Links"
+import styles from "./style.module.css"
 
 const Contacts = () => {
   return (
@@ -28,11 +29,11 @@ const Contacts = () => {
                     <p className={`${styles.rightTextItem} ${styles.adress}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
                   </div>
                   <div className={`${styles.contactsBarcode} ${styles.flex}`}>
-                    <Link className={styles.contactsSocLinks} href="/"><Image src="/assets/icon/instagram.svg" alt="" width={32} height={32} /></Link>
-                    <Link className={styles.contactsSocLinks} href="/"><Image src="/assets/icon/whatsapp.svg" alt="" width={32} height={32} /></Link>
-                    <Link className={styles.contactsSocLinks} href="/"><Image src="/assets/icon/facebook.svg" alt="" width={32} height={32} /></Link>
-                    <Link className={styles.contactsSocLinks} href="/"><Image src="/assets/icon/linkedin.svg" alt="" width={32} height={32} /></Link>
-                    <Link className={styles.contactsSocLinks} href="/"><Image src="/assets/icon/viber.svg" alt="" width={32} height={32} /></Link>
+                    {
+                      SocialLinks.map(({ id, to, imageSrc, alt }) => {
+                        return (<Link key={id} className={styles.contactsSocLinks} target="_blank" href={to}><Image src={imageSrc} alt={alt} width={32} height={32} /></Link>)
+                      })
+                    }
                   </div>
                 </div>
               </div>
