@@ -1,0 +1,73 @@
+.mainSend {
+  padding: 4rem 0;
+}
+
+.sendItems {
+  width: 506px;
+  padding: 44px 45px;
+  margin: 5.5rem auto 0;
+  background-color: var(--black);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sendTitle {
+  font: 3em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.sendSpan {
+  color: var(--electric);
+}
+
+.sendText {
+ color: var(--grey);
+ font: 1.22em/145% "RadioCanada-Light", sans-serif;
+}
+
+.sendInput {
+  display: block;
+  width: 416px;
+  margin: 1.5rem 0;
+}
+
+.sendTextArea {
+  resize: none;
+}
+
+.colorWhite {
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.colorBlack {
+  background-color: var(--black);
+  padding: 1rem;
+
+}
+
+.sendInput::placeholder,
+.sendTextArea::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font: 1em/107.7% "Gotham-Light", sans-serif;
+} 
+
+.btnCase {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sendBtn {
+  padding: 20px;
+  background-color: var(--green);
+  font: 1em/1.22em "RadioCanada-Medium", sans-serif;
+  margin-top: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sendBtnIcon {
+  margin-right: 7px;
+}
