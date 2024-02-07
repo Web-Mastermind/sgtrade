@@ -3,9 +3,12 @@
 }
 
 .swiperItemsMain {
-  display: flex;
   padding: 6rem 2rem 0 3rem;
   margin-top: 6.25rem;
+}
+
+.flex {
+  display: flex;
 }
 
 .mainTitle {
@@ -30,5 +33,4 @@
   font: 1em "RadioCanada-Medium", sans-serif;
   padding: 19px 20px;
   display: inline-flex;
-  align-items: center;
 }
