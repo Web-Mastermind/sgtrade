@@ -1,6 +1,9 @@
 import Link from "next/link"
-import styles from "./style.module.css"
 import Image from "next/image"
+import { SocialLinks } from "@/src/links/Links"
+import { FooterLeftLinks } from "@/src/links/Links"
+import { FooterRightLinks } from "@/src/links/Links"
+import styles from "./style.module.css"
 
 const Footer = () => {
   return (
@@ -25,24 +28,27 @@ const Footer = () => {
           </div>
           <div className={styles.footerBarcode}>
             <Image className={styles.barcodeImg} src="/assets/icon/barcode.png" alt="" width={156} height={60} />
-            <Link className={styles.footerSocLinks} href="/"><Image src="/assets/icon/instagram.svg" alt="" width={20} height={20} /></Link>
-            <Link className={styles.footerSocLinks} href="/"><Image src="/assets/icon/whatsapp.svg" alt="" width={20} height={20} /></Link>
-            <Link className={styles.footerSocLinks} href="/"><Image src="/assets/icon/facebook.svg" alt="" width={20} height={20} /></Link>
-            <Link className={styles.footerSocLinks} href="/"><Image src="/assets/icon/linkedin.svg" alt="" width={20} height={20} /></Link>
-            <Link className={styles.footerSocLinks} href="/"><Image src="/assets/icon/viber.svg" alt="" width={20} height={20} /></Link>
+            {
+              SocialLinks.map(({ id, to, imageSrc, width, height, alt }) => {
+                return (<Link className={styles.footerSocLinks} target="_blank" key={id} href={to}><Image src={imageSrc} alt={alt} width={width} height={height} /></Link>)
+              })
+            }
           </div>
           <div className={styles.rightLinks}>
             <div className={styles.navLeft}>
-              <Link className={styles.footerNavLinks} href="/"><Image className={styles.navIcons} src="/assets/icon/contacts.svg" alt="" width={20} height={20} />Əlaqə</Link>
-              <Link className={styles.footerNavLinks} href="/"><Image className={styles.navIcons} src="/assets/icon/about.svg" alt="" width={20} height={20} />Haqqımızda</Link>
-              <Link className={styles.footerNavLinks} href="impt"><Image className={styles.navIcons} src="/assets/icon/import.svg" alt="" width={20} height={20} />İmport/Eksport</Link>
-              <Link className={styles.footerNavLinks} href="/"><Image className={styles.navIcons} src="/assets/icon/news.svg" alt="" width={20} height={20} />Xəbərlər</Link>
+              {
+                FooterLeftLinks.map(({ id, to, imageSrc, title, alt }) => {
+                  return (<Link key={id} className={styles.footerNavLinks} href={to}><Image className={styles.navIcons} src={imageSrc} alt={alt} width={20} height={20} />{title}</Link>)
+                })
+              }
             </div>
             <div className={styles.navRight}>
               <Link className={styles.footerNavLinks} href="/Catalog"><Image className={styles.navIcons} src="/assets/icon/catalog.svg" alt="" width={20} height={20} />Kataloq</Link>
-              <Link className={styles.footerNavRightLinks} href="/">İçkilər</Link>
-              <Link className={styles.footerNavRightLinks} href="/">Şirniyyatlar</Link>
-              <Link className={styles.footerNavRightLinks} href="/">Alkoqollu İçkilər</Link>
+              {
+                FooterRightLinks.map(({ id, to, title }) => {
+                  return (<Link key={id} className={styles.footerNavRightLinks} href={to}>{title}</Link>)
+                })
+              }
             </div>
           </div>
         </div>
