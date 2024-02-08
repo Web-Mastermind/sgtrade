@@ -34,3 +34,24 @@
   padding: 19px 20px;
   display: inline-flex;
 }
+
+@media (max-width:360px) {
+ .swiperItemsMain {
+  display: block;
+  padding: 1.5rem 1rem 0 1rem;
+ }
+ 
+ .mainTitle {
+  text-align: center;
+  font-size: 2.3em;
+  line-height: 100%;
+  margin-bottom: 1rem;
+}
+
+.mainText {
+  text-align: center;
+  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  margin-bottom: 1.6em;
+}
+
+}
