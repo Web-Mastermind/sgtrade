@@ -1,11 +1,11 @@
 export const NavLinks = [
   { id: 1, to: "tel:+370 613 15 157", title: "+370 613 15 157", imageSrc: "/assets/icon/phone.svg", alt: "Phone Icon", width: 30, height: 30 },
   { id: 2, to: "mailto:info@sgtrade.lt", title: "info@sgtrade.lt", imageSrc: "/assets/icon/mail.svg", alt: "Phone Icon", width: 30, height: 30 },
-  { id: 3, to: "/impt", title: "Import/Export", imageSrc: "/assets/icon/import.svg", alt: "Phone Icon", width: 15, height: 15 },
-  { id: 4, to: "/About", title: "About Us", imageSrc: "/assets/icon/about.svg", alt: "Phone Icon", width: 15, height: 15 },
-  { id: 5, to: "/News", title: "News", imageSrc: "/assets/icon/news.svg", alt: "Phone Icon", width: 15, height: 15 },
-  { id: 6, to: "/Contacts", title: "Contacts", imageSrc: "/assets/icon/contacts.svg", alt: "Phone Icon", width: 15, height: 15 },
-  { id: 7, to: "/Catalog", title: "Catalog", imageSrc: "/assets/icon/catalog.svg", alt: "Phone Icon", width: 15, height: 15 }
+  { id: 3, to: "/impt", title: "İmport/Eksport", imageSrc: "/assets/icon/import.svg", alt: "Phone Icon", width: 15, height: 15 },
+  { id: 4, to: "/About", title: "Haqqımızda", imageSrc: "/assets/icon/about.svg", alt: "Phone Icon", width: 15, height: 15 },
+  { id: 5, to: "/News", title: "Xəbərlər", imageSrc: "/assets/icon/news.svg", alt: "Phone Icon", width: 15, height: 15 },
+  { id: 6, to: "/Contacts", title: "Əlaqə", imageSrc: "/assets/icon/contacts.svg", alt: "Phone Icon", width: 15, height: 15 },
+  { id: 7, to: "/Catalog", title: "Kataloq", imageSrc: "/assets/icon/catalog.svg", alt: "Phone Icon", width: 15, height: 15 }
 ]
 
 export const Trophy = [
