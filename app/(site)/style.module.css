@@ -38,7 +38,7 @@
 @media (max-width:360px) {
  .swiperItemsMain {
   display: block;
-  padding: 1.5rem 1rem 0 1rem;
+  padding: 1.5rem 3rem 0 3rem;
  }
  
  .mainTitle {
@@ -52,6 +52,16 @@
   text-align: center;
   font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
   margin-bottom: 1.6em;
+}
+
+.linkItems {
+  padding: 10px 10px;
+  margin-bottom: 2rem;
+}
+
+.sliderImgItem {
+  width: 300px;
+  height: 300px;
 }
 
 }

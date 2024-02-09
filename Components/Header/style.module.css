@@ -155,9 +155,9 @@
   outline-offset: 5px;
 }
 
-@media (max-width:1920px) {
+@media (min-width:1800px) {
   .nav {
-    width: 18.5%;
+    width: 16.5%;
   }
 }
 
@@ -217,7 +217,7 @@
  }
  .barcodeImg {
   width: 6.5rem;
-  height: 3.4rem;
+  height: 3.1rem;
  }
 }
 
