@@ -53,3 +53,29 @@
 .wroldItem {
   margin-top: 4rem;
 }
+
+@media (max-width:360px) {
+  .sectionTitle {
+    font-size: 2em;
+    margin-bottom: 1.5rem;
+  }
+  
+
+  .sectionContactsLinks {
+    font-size: 0.71em;
+    padding: 2rem 0 0.4rem;
+    margin: 0 0.33rem;
+  }
+
+  .contactIcon {
+    margin-right: 2px;
+  }
+
+  .wroldItem {
+    margin-top: 2rem;
+  }
+
+  .contactWorld {
+   height: 15vh;
+  }
+}
