@@ -1,15 +1,16 @@
-import React from 'react'
-import Header from '@/Components/Header'
 import Footer from '@/Components/Footer'
+import Header from '@/Components/Header'
+import React from 'react'
+import Providers from './providers'
 import "./global.css"
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>
+    <Providers>
       <Header />
       {children}
       <Footer />
-    </div>
+    </Providers>
   )
 }
 
