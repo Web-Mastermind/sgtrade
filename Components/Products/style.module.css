@@ -38,3 +38,38 @@
   align-items: center;
   margin: 3rem 6rem 0 0;
 }
+
+@media (max-width:360px) {
+  .sectioItems {
+    padding-top: 2.5rem;
+  }
+
+  .sectionTitles {
+    display: block;
+  }
+
+  .sectionProducts {
+    padding-bottom: 2.5rem;
+  }
+
+  .sectioTitle {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .sectionText {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .productsLinks {
+    margin: 2.2rem 1rem 0 0;
+  }
+
+  .productImages {
+    width: 250px;
+    height: 240px;
+  }
+ 
+ }
