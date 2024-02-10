@@ -34,7 +34,7 @@ const Header = () => {
       <nav className={`${styles.nav} ${burgerMenuOpen ? styles.showMenu : ''}`}>
         {
           NavLinks.map(({ id, to, title, imageSrc, alt, width, height }) => {
-            return (<Link className={styles.navLinks} href={to} key={id}>{imageSrc && <Image className={styles.linkIcons} src={imageSrc} alt={alt} width={width} height={height} />}{title}</Link>)
+            return (<Link className={styles.navLinks} href={to} key={id} onClick={() => setBurgerMenuOpen(false)}>{imageSrc && <Image className={styles.linkIcons} src={imageSrc} alt={alt} width={width} height={height} />}{title}</Link>)
           })
         }
       </nav>
