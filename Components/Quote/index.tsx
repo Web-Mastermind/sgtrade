@@ -9,7 +9,7 @@ const Quote = () => {
         <div className={styles.articleItems}>
           <h3 className={styles.articleTitle}>Niyə biz?</h3>
           <div className={styles.articleTextItems}>
-            <Image className={styles.quoteIcon} src="/assets/icon/quote.svg" alt="" width={22} height={22} />
+            <Image className={styles.quoteIconBarcode} src="/assets/icon/quote.svg" alt="" width={22} height={22} />
             <p className={styles.articleText}>SGTrade Haqqında</p>
           </div>
         </div>
