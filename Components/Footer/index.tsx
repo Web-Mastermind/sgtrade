@@ -10,29 +10,31 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className="container">
         <div className={styles.footerItems}>
-          <div className={styles.footerUpContainer}>
-            <Link className={styles.footerUpLinks} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
-            <Link className={`${styles.footerUpLinks} ${styles.phone}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
-            <div className={styles.textItems}>
-              <div className={styles.footerText}>
-                <p className={styles.leftTextItem} >Registry code:</p>
-                <p className={styles.leftTextItem} >VAT nr:</p>
-                <p className={styles.leftTextItem} >Address</p>
-              </div>
-              <div className={styles.footerRightText}>
-                <p className={styles.rightTextItem} >305937503</p>
-                <p className={styles.rightTextItem} >LT100015566211</p>
-                <p className={`${styles.rightTextItem} ${styles.adress}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
+          <div className={styles.footerContainer}>
+            <div className={styles.footerUpContainer}>
+              <Link className={styles.footerUpLinks} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
+              <Link className={`${styles.footerUpLinks} ${styles.phone}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
+              <div className={styles.textItems}>
+                <div className={styles.footerText}>
+                  <p className={styles.leftTextItem} >Registry code:</p>
+                  <p className={styles.leftTextItem} >VAT nr:</p>
+                  <p className={styles.leftTextItem} >Address</p>
+                </div>
+                <div className={styles.footerRightText}>
+                  <p className={styles.rightTextItem} >305937503</p>
+                  <p className={styles.rightTextItem} >LT100015566211</p>
+                  <p className={`${styles.rightTextItem} ${styles.adress}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.footerBarcode}>
-            <Image className={styles.barcodeImg} src="/assets/icon/barcode.png" alt="" width={156} height={60} />
-            {
-              SocialLinks.map(({ id, to, imageSrc, width, height, alt }) => {
-                return (<Link className={styles.footerSocLinks} target="_blank" key={id} href={to}><Image src={imageSrc} alt={alt} width={width} height={height} /></Link>)
-              })
-            }
+            <div className={styles.footerBarcode}>
+              <Image className={styles.barcodeImg} src="/assets/icon/barcode.png" alt="" width={156} height={60} />
+              {
+                SocialLinks.map(({ id, to, imageSrc, width, height, alt }) => {
+                  return (<Link className={styles.footerSocLinks} target="_blank" key={id} href={to}><Image src={imageSrc} alt={alt} width={width} height={height} /></Link>)
+                })
+              }
+            </div>
           </div>
           <div className={styles.rightLinks}>
             <div className={styles.navLeft}>
