@@ -14,11 +14,11 @@ const Products = () => {
             </div>
           </div>
           <div className={styles.sectionProducts}>
-            <Link className={styles.productsLinks} href="/"><Image src="/assets/img/beverages.png" alt="Beverages Image" width={305} height={320} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image src="/assets/img/confectionarys.png" alt="confectionary Image" width={305} height={312} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image src="/assets/img/alchol.png" alt="alchol Image" width={305} height={312} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image src="/assets/img/cosmetics.png" alt="cosmetics Image" width={305} height={302} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image src="/assets/img/clean.png" alt="clean Image" width={305} height={312} /></Link>
+            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/beverages.png" alt="Beverages Image" width={305} height={320} /></Link>
+            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/confectionarys.png" alt="confectionary Image" width={305} height={312} /></Link>
+            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/alchol.png" alt="alchol Image" width={305} height={312} /></Link>
+            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/cosmetics.png" alt="cosmetics Image" width={305} height={302} /></Link>
+            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/clean.png" alt="clean Image" width={305} height={312} /></Link>
           </div>
         </div>
       </section>
