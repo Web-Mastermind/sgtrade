@@ -20,7 +20,8 @@
   height: 50px;
 }
 
-.quoteIcon {
+.quoteIcon,
+.quoteIconBarcode {
   margin-right: 10px;
 }
 
@@ -55,3 +56,34 @@
   font: 300 1em/125% "RadioCanada-Medium", sans-serif;
   padding-bottom: 2rem;
 }
+
+@media (max-width:320px) {
+  .articleItems {
+    padding-top: 2rem;
+  }
+  
+  .articleTitle {
+    font-size: 1.6em;
+    margin-right: 2rem;
+  }
+
+  .quoteIconBarcode {
+    width: 15px;
+    height: 15px;
+  }
+
+  .articleText {
+    font-size: 0.6em;
+  }
+
+  .trophy {
+   margin-top: 2rem;
+   flex-wrap: wrap;
+  }
+
+  .trophyText {
+   padding-bottom: 0.5rem;
+  }
+  
+ 
+ }
