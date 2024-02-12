@@ -29,14 +29,43 @@
 
 .sectionProducts {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
 }
 
+.beveragesLink {
+  background: url(../../public/assets/img/beverages.png) no-repeat center top / cover ;
+  padding: 1.5rem 9rem 15rem 3rem;
+}
+
+.confectLink {
+  background: url(../../public/assets/img/confectionarys.png) no-repeat center top / cover ;
+  padding: 1.5rem 9rem 15rem 2.5rem;
+}
+
+.alcoholLink {
+  background: url(../../public/assets/img/alchol.png) no-repeat center top / cover ;
+  padding: 1.5rem 9rem 15rem 3rem;
+}
+
+.cosmeticsLink {
+  background: url(../../public/assets/img/cosmetics.png) no-repeat center top / cover ;
+  padding: 1.5rem 7rem 15rem 2.5rem;
+}
+
+.cleanlinessLink {
+  background: url(../../public/assets/img/clean.png) no-repeat center top / cover ;
+  padding: 10px 16rem 15rem 2.5rem;
+  width: 8ch;
+}
+
+.linkFonts {
+  font: 1.44em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  color: var(--white);
+}
+
 .productsLinks {
-  display: flex;
-  align-items: center;
   margin: 3rem 6rem 0 0;
+  border-bottom: 2px solid var(--white);
 }
 
 @media (max-width:360px) {
