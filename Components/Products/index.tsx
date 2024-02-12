@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "./style.module.css"
-import Image from "next/image"
+import { CategoryLinks } from "@/src/links/Links"
 
 const Products = () => {
   return (
@@ -14,15 +14,14 @@ const Products = () => {
             </div>
           </div>
           <div className={styles.sectionProducts}>
-            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/beverages.png" alt="Beverages Image" width={305} height={320} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/confectionarys.png" alt="confectionary Image" width={305} height={312} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/alchol.png" alt="alchol Image" width={305} height={312} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/cosmetics.png" alt="cosmetics Image" width={305} height={302} /></Link>
-            <Link className={styles.productsLinks} href="/"><Image className={styles.productImages} src="/assets/img/clean.png" alt="clean Image" width={305} height={312} /></Link>
+            {
+              CategoryLinks.map(({ id, to, title, className, className2, className3 }) => {
+                return (<Link key={id} className={`${styles[className]} ${styles[className2]} ${styles[className3]}`} href={to}>{title}</Link>)
+              })
+            }
           </div>
         </div>
       </section>
-
     </>
   )
 }
