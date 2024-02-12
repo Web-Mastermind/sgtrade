@@ -30,6 +30,24 @@ export const SocialLinks = [
   { id: 5, to: "https://www.viber.com/en/", imageSrc: "/assets/icon/viber.svg", width: 20, height: 20, alt: "Viber Icon" },
 ]
 
+export const CategoryLinks = [
+  { id: 1, to: "/CategoryPage", title: "İçkilər", className: "productsLinks", className2: "beveragesLink", className3: "linkFonts" },
+  { id: 2, to: "/", title: "Şirniyyatlar", className: "productsLinks", className2: "confectLink", className3: "linkFonts" },
+  { id: 3, to: "/", title: "Alkoqol", className: "productsLinks", className2: "alcoholLink", className3: "linkFonts" },
+  { id: 4, to: "/", title: "Kosmetika", className: "productsLinks", className2: "cosmeticsLink", className3: "linkFonts" },
+  { id: 5, to: "/", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
+]
+
+export const SoftDrinkLinks = [
+  { id: 1, imageSrc: "/assets/icon/cola033icon.png", alt: "Coca-Cola 0.33ml Can Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 0,33 ml" },
+  { id: 2, imageSrc: "/assets/icon/cola05icon.png", alt: "Coca-Cola 0.5L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 0.5l butulka" },
+  { id: 3, imageSrc: "/assets/icon/cola1licon.png", alt: "Coca-Cola 1L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 1L butulka" },
+  { id: 4, imageSrc: "/assets/icon/cola2licon.png", alt: "Coca-Cola 2L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 2L butulka" },
+  { id: 5, imageSrc: "/assets/icon/fanta033icon.png", alt: "Fanta 0.33ml Can Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Fanta 0,33 ml" },
+  { id: 6, imageSrc: "/assets/icon/fanta05icon.png", alt: "Fanta 0.5L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Fanta 0.5L butulka" },
+]
+
+
 export const FooterLeftLinks = [
   { id: 1, to: "/impt", title: "İmport/Eksport", imageSrc: "/assets/icon/import.svg", alt: "Phone Icon", width: 15, height: 15 },
   { id: 2, to: "/About", title: "Haqqımızda", imageSrc: "/assets/icon/about.svg", alt: "Phone Icon", width: 15, height: 15 },
