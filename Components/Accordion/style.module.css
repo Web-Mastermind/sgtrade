@@ -1,0 +1,17 @@
+.accordionContainer {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.accordionBackground {
+  background-color: var(--black);
+}
+
+.typoColor {
+  background-color: var(--electric);
+}
+
+.typoTitle {
+  color: var(--black);
+  font: 1.2em/107.7% "Gotham-Light", sans-serif;
+}
