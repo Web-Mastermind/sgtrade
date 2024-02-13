@@ -10,6 +10,10 @@
 
 .productContainer {
   display: flex;
+} 
+
+.productInfoContainer {
+  display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -25,4 +29,30 @@
 .productText {
   color: var(--white);
   font: 1em/108% "Gotham-Regular", sans-serif;
+}
+
+.marketingText {
+  color: var(--white);
+  font: 1.66em/107% "PlayFairDisplay-Medium", sans-serif;
+  padding: 3rem 0;
+}
+
+.alcoholText,
+.alcoholTextEnd {
+color: var(--grey);
+font: 1em/125% "RadioCanada-Light", sans-serif;
+}
+
+.alcoholText {
+  margin-bottom: 4rem;
+}
+
+.alcoholList {
+  margin: 2.2rem;
+  color: var(--white);
+}
+
+.listText,
+.alcoholTextEnd {
+  margin-bottom: 1.5rem;
 }
