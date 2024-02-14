@@ -38,13 +38,11 @@ export const CategoryLinks = [
   { id: 5, to: "/", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
 ]
 
-// export const SoftDrinkLinks = [
-//   { id: 1, imageSrc: "/assets/icon/cola033icon.png", alt: "Coca-Cola 0.33ml Can Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 0,33 ml" },
-//   { id: 2, imageSrc: "/assets/icon/cola05icon.png", alt: "Coca-Cola 0.5L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 0.5l butulka" },
-//   { id: 3, imageSrc: "/assets/icon/cola1licon.png", alt: "Coca-Cola 1L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 1L butulka" },
-//   { id: 4, imageSrc: "/assets/icon/cola2licon.png", alt: "Coca-Cola 2L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Coca Cola 2L butulka" },
-//   { id: 5, imageSrc: "/assets/icon/fanta033icon.png", alt: "Fanta 0.33ml Can Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Fanta 0,33 ml" },
-//   { id: 6, imageSrc: "/assets/icon/fanta05icon.png", alt: "Fanta 0.5L bottle Image", width: 305, height: 277, to: "/", iconPlus: "/assets/icon/plus.svg", iconAlt: "Buy Item Button", iconWidth: 31, iconHeight: 31, text: "Fanta 0.5L butulka" },
+// export const FeaturesLeftLinks = [
+//   { id: 1, imageSrc: "/assets/icon/volume.svg", alt: "pcs Icon", width: 16, height: 18, to: "/", text: "1 ədədin həcmi:" },
+//   { id: 2, imageSrc: "/assets/icon/packaging.svg", alt: "Package Icon", width: 16, height: 18, to: "/", text: "Qablaşdırma:" },
+//   { id: 3, imageSrc: "/assets/icon/packaging.svg", alt: "Netto Icon", width: 16, height: 18, to: "/", text: "Xalis çəkisi:" },
+//   { id: 4, imageSrc: "/assets/icon/brutto.svg", alt: "Brutto Icon", width: 16, height: 18, to: "/", text: "Brutto çəkisi:" },
 // ]
 
 
