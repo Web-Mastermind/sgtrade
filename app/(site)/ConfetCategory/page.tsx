@@ -27,7 +27,7 @@ const ConfetCategory = async () => {
                       <div key={id} className={styles.productInfo}>
                         <Image src={imageSrc} alt={alt} width={305} height={277} />
                         <div className={styles.productAdd}>
-                          <Link href={`/ConfetCategory/${id}`}><Image src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
+                          <Link href={`/ConfetCategory/${id}`}><Image className={styles.plusIcon} src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
                           <p className={styles.productText}>{text}</p>
                         </div>
                       </div>
