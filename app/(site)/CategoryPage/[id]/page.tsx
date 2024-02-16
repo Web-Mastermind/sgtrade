@@ -36,6 +36,7 @@ const Single = async ({ params }: any) => {
                       <p className={styles.featuresTextItem} >1 ədədin həcmi:</p>
                     </div>
                     <p className={styles.featuresMainTextItem}>{data.singleVolume}</p>
+
                     <div className={styles.featuresInfoItems}>
                       <Image className={styles.featuresImageItem} src="/assets/icon/packaging.svg" alt="pcs icon" width={16} height={18} />
                       <p className={styles.featuresTextItem} >Qablaşdırma:</p>
