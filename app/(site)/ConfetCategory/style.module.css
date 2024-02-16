@@ -21,9 +21,13 @@
 .productAdd {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   background-color: var(--black);
   padding: 1rem 0;
+}
+
+.plusIcon {
+  margin: 0 0.5rem;
+
 }
 
 .productText {
