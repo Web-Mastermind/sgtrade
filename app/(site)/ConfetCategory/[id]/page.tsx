@@ -93,8 +93,7 @@ const Single = async ({ params }: any) => {
               </div>
             </div>
             <h3 className={styles.logisticTitle}>Məhsul</h3>
-            <p className={styles.productDesc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident rerum dolorum laborum blanditiis totam inventore magni, dignissimos vero quaerat minima vel quam voluptas facere sunt corporis atque nihil deserunt recusandae.
-              Dolorem eligendi, quod voluptas itaque quibusdam earum explicabo reprehenderit quidem neque incidunt blanditiis aliquam, obcaecati asperiores accusantium, harum animi quo perspiciatis error quas repellendus. Nihil illum enim laboriosam facilis ipsum?</p>
+            <p className={styles.productDesc}>{data.singleDescription}</p>
           </div>
         </div>
       </main>
