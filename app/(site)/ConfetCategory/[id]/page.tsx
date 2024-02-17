@@ -31,28 +31,29 @@ const Single = async ({ params }: any) => {
                 <div className={styles.featuresInfo}>
                   <div className={styles.featuresInfoLeftContainer}>
                     {
-                      data.prodDescription.map(({ id, icon, title, text }: prodDescription) => (
-                        <div className={styles.map}>
+                      data.prodDescription.map(({ id, icon, title, text }: prodDescription) => {
+                        return (<div className={styles.map}>
                           <div key={id} className={styles.featuresInfoItems}>
                             <Image className={styles.featuresImageItem} src={icon} alt={title} width={16} height={18} />
                             <p className={styles.featuresTextItem}>{title}</p>
                           </div>
                           <p className={styles.featuresMainTextItem}>{text}</p>
-                        </div>
-                      ))
+                        </div>)
+                      })
                     }
                   </div>
                   <div className={styles.featuresInfoRightContainer}>
                     {
-                      data.right.map(({ id, icon, title, text }: prodDescription) => (
-                        <div className={styles.map}>
+                      data.right.map(({ id, icon, title, text }: prodDescription) => {
+                        return (<div className={styles.map}>
                           <div key={id} className={styles.featuresInfoItems}>
                             <Image className={styles.featuresImageItem} src={icon} alt={title} width={16} height={18} />
                             <p className={styles.featuresTextItem}>{title}</p>
                           </div>
                           <p className={styles.featuresMainTextItem}>{text}</p>
-                        </div>
-                      ))
+                        </div>)
+
+                      })
                     }
                   </div>
                 </div>
@@ -61,14 +62,15 @@ const Single = async ({ params }: any) => {
             <h2 className={styles.logisticTitle}>Logistika</h2>
             <div className={styles.logisticContainer}>
               {
-                data.bottom.map(({ id, title, text }: prodDescription) => (
-                  <div key={id} className={styles.mapBottom}>
+                data.bottom.map(({ id, title, text }: prodDescription) => {
+                  return (<div key={id} className={styles.mapBottom}>
                     <div className={styles.logisticItems}>
                       <p className={styles.logisticText}>{title}</p>
                       <p className={styles.logisticSecondText}>{text}</p>
                     </div>
-                  </div>
-                ))
+                  </div>)
+
+                })
               }
             </div>
             <h3 className={styles.logisticTitle}>Məhsul</h3>
