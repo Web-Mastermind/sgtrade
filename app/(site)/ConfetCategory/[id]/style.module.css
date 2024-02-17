@@ -66,13 +66,14 @@
   padding: 1rem ;
 }
 
+.map:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .featuresTextItem {
   margin-bottom: 5px;
 }
 
-.featuresMainTextItem:not(:last-child) {
-  margin-bottom: 1rem;
-}
 
 .featuresTextItem,
 .featuresMainTextItem {
@@ -97,7 +98,7 @@
 .logisticItems {
   background-color: var(--black, #000);
   width: 321px;
-  padding: 1rem 0.5rem 0;
+  padding: 1rem 0.5rem 0.1rem;
 }
 
 .logisticText,
