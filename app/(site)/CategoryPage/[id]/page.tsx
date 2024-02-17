@@ -68,7 +68,6 @@ const Single = async ({ params }: any) => {
                       <p className={styles.logisticSecondText}>{text}</p>
                     </div>
                   </div>)
-
                 })
               }
             </div>
