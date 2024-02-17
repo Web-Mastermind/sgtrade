@@ -17,7 +17,7 @@ const ConfetCategory = async () => {
       <main className={styles.categoryPage}>
         <div className="container">
           <div className={styles.categoryItems}>
-            <h2 className={styles.categoryTitle}>Coca-Cola sərinləşdirici içkilərin topdan satışı</h2>
+            <h2 className={styles.categoryTitle}>Kosmetik vasitələrin topdan satışı</h2>
             <div className={styles.productContainer}>
               <CustomizedAccordions />
               <div className={styles.productInfoContainer}>
@@ -37,16 +37,16 @@ const ConfetCategory = async () => {
               </div>
             </div>
           </div>
-          <h3 className={styles.marketingText}>Coca-Cola şirkəti sərinləşdirici içkilərin topdan satışı - bazarda ən yaxşı şərtlər</h3>
+          <h3 className={styles.marketingText}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti qui, at inventor</h3>
           <div className={styles.listItem}>
-            <p className={styles.alcoholText}>Coca-Cola Alkoqolsuz İçkilər Kataloq səhifəmizə xoş gəlmisiniz, burada yüksək keyfiyyətli Coca-Cola içkilərinin müxtəlif seçimi var. Üstünlükləri kəşf edin:</p>
+            <p className={styles.alcoholText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi porro vel, excepturi cupiditate saepe beatae eos illum unde sapiente.</p>
             <ul className={styles.alcoholList}>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>İkonik ləzzətlər: Sprite kimi təravətləndirici seçimlər və Fanta-nın meyvəli ləzzəti ilə yanaşı, Coca-Cola Original-ın əbədi dadından həzz alın.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Müxtəlif dadlar: Klassik Coca-Cola Originaldan tutmuş ləzzətli Sprite və Fanta-nın meyvəli profillərinə qədər bir sıra ləzzətləri araşdırın.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Çoxsaylı Ölçülər: Biznes ehtiyaclarınızı ödəmək üçün müxtəlif ölçülərdən, o cümlədən tək xidmət qutuları və daha böyük butulkalardan seçin.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Müxtəlif qablaşdırma: Kataloqumuz bazar tələbləriniz üçün çeviklik təmin edən qutular, PET şüşələr və şüşə butulkalar kimi müxtəlif qablaşdırma variantları təklif edir.</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi porro vel, excepturi cupiditate saepe beatae eos illum unde sapiente.</p></li>
             </ul>
-            <p className={styles.alcoholText}>Coca-Cola sərinləşdirici içkilərimiz, Sprite və Fanta ilə topdansatış təkliflərinizi artırın. Fərqli dadları, müxtəlif ölçüləri və müxtəlif qablaşdırma növləri ilə bu içkilər müştərilərinizin zövqünə uyğun olacaq.</p>
+            <p className={styles.alcoholText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi porro vel, excepturi cupiditate saepe beatae eos illum unde sapiente.</p>
           </div>
         </div>
       </main>
