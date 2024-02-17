@@ -32,8 +32,8 @@ const Single = async ({ params }: any) => {
                   <div className={styles.featuresInfoLeftContainer}>
                     {
                       data.prodDescription.map(({ id, icon, title, text }: prodDescription) => {
-                        return (<div className={styles.map}>
-                          <div key={id} className={styles.featuresInfoItems}>
+                        return (<div key={id} className={styles.map}>
+                          <div className={styles.featuresInfoItems}>
                             <Image className={styles.featuresImageItem} src={icon} alt={title} width={16} height={18} />
                             <p className={styles.featuresTextItem}>{title}</p>
                           </div>
@@ -45,8 +45,8 @@ const Single = async ({ params }: any) => {
                   <div className={styles.featuresInfoRightContainer}>
                     {
                       data.right.map(({ id, icon, title, text }: prodDescription) => {
-                        return (<div className={styles.map}>
-                          <div key={id} className={styles.featuresInfoItems}>
+                        return (<div key={id} className={styles.map}>
+                          <div className={styles.featuresInfoItems}>
                             <Image className={styles.featuresImageItem} src={icon} alt={title} width={16} height={18} />
                             <p className={styles.featuresTextItem}>{title}</p>
                           </div>
