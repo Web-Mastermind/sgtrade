@@ -19,3 +19,10 @@ export interface product {
   iconHeight: number;
   text: string;
 }
+
+export interface prodDescription {
+  id: number;
+  icon: string;
+  title: string;
+  text: string;
+}
