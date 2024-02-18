@@ -35,7 +35,7 @@ export const CategoryLinks = [
   { id: 2, to: "/ConfetCategory", title: "Şirniyyatlar", className: "productsLinks", className2: "confectLink", className3: "linkFonts" },
   { id: 3, to: "/", title: "Alkoqol", className: "productsLinks", className2: "alcoholLink", className3: "linkFonts" },
   { id: 4, to: "/CosmeticCategory", title: "Kosmetika", className: "productsLinks", className2: "cosmeticsLink", className3: "linkFonts" },
-  { id: 5, to: "/", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
+  { id: 5, to: "/CleanCategory", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
 ]
 
 // export const FeaturesLeftLinks = [
