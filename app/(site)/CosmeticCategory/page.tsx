@@ -10,7 +10,7 @@ import styles from "./style.module.css"
 
 const url: string = process.env.NEXT_PUBLIC_COSMETIC || "";
 
-const ConfetCategory = async () => {
+const CosmeticCategory = async () => {
   const { data } = await axios.get(url)
   return (
     <>
@@ -55,4 +55,4 @@ const ConfetCategory = async () => {
   )
 }
 
-export default ConfetCategory
+export default CosmeticCategory
