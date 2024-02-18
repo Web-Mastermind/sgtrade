@@ -12,7 +12,7 @@
 }
 
 .white {
-  color: var(--white);
+  color: var(--white, #fff);
 }
 
 .flex {
@@ -24,7 +24,7 @@
 }
 
 .dataText {
-  color: var(--grey);
+  color: var(--grey, #C8C8C8);
   font: 1.22em/1.16em "Gotham-Light", sans-serif ;
   padding-bottom: 2rem;
 }
