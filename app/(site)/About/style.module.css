@@ -16,7 +16,7 @@
 }
 
 .white {
-  color: var(--white);
+  color: var(--white, #fff);
 }
 
 .aboutText {
