@@ -6,8 +6,6 @@ import axios from "axios"
 import { product } from "@/src/Types/Interface"
 import styles from "./style.module.css"
 
-
-
 const url: string = process.env.NEXT_PUBLIC_PRODUCT || "";
 
 const CategoryPage = async () => {
