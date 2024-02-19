@@ -8,7 +8,6 @@ import styles from "./style.module.css"
 import Link from 'next/link';
 import Image from 'next/image';
 import Products from '@/Components/Products';
-import { swiper } from "@/src/Types/Interface"
 import Request from '@/Components/Request';
 import Quote from '@/Components/Quote';
 import { SwiperLinks } from '@/src/links/Links';
