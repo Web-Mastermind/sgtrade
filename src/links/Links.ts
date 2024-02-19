@@ -1,3 +1,11 @@
+export const SwiperLinks = [
+  { id: 1, title: "Müstəsna İçki İdxalları üçün", span: "Etibarlı Mənbəniz", text: "Birbaşa Tanınmış İstehsalçılardan Premium İçkilər Dünyasını kəşf edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cola.png", to: "" },
+  { id: 2, title: "Şirniyyatlar, şokoladlar və digər", span: "şəkərli ləzzətlə", text: "Dad qönçələrini ləzzətləndirən və şirin ləzzətlərdən həzz alan seçimləri araşdırın", img: "/assets/icon/grid.svg", slideImage: "/assets/img/confectionary.png", to: "" },
+  { id: 3, title: "Premium spirtli içkilər dünyasına", span: "addım atın", text: "Dünyanın ən məşhur içki zavodları və üzüm bağlarından əldə edilən yüksək keyfiyyətli içkilər", img: "/assets/icon/grid.svg", slideImage: "/assets/img/alcholic.png", to: "" },
+  { id: 4, title: "Gözəlliyin sübutu olduğu məkana", span: "xoş gəlmisiniz", text: "Dəbdəbəli teksturalar, canlı çalarlar və transformasiyalı formulalar dünyasını əhatə edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cosmetic.png", to: "" },
+  { id: 5, title: "Daha təmiz və sağlam həyat", span: "tərzinə doğru", text: "Seçilmiş gigiyena məhsullarımız arasında əminliklə gedin, sağlamlıq və təhlükəsizlik məqsədlərinizə uyğun olan", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cleaning.webp", to: "" },
+]
+
 export const NavLinks = [
   { id: 1, to: "tel:+370 613 15 157", title: "+370 613 15 157", imageSrc: "/assets/icon/phone.svg", alt: "Phone Icon", width: 30, height: 30 },
   { id: 2, to: "mailto:info@sgtrade.lt", title: "info@sgtrade.lt", imageSrc: "/assets/icon/mail.svg", alt: "Phone Icon", width: 30, height: 30 },

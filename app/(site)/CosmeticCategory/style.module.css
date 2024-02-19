@@ -2,41 +2,36 @@
   margin-top: 5.5rem;
 }
 
+.white {
+  color: var(--white, #fff);
+}
+
 .categoryTitle {
-  color: var(--white);
   font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
   padding: 3rem 0;
 }
 
-.productContainer {
+.flex {
   display: flex;
 } 
 
 .productInfoContainer {
-  display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .productAdd {
-  display: flex;
   align-items: center;
+  justify-content: space-evenly;
   background-color: var(--black);
   padding: 1rem 0;
 }
 
-.plusIcon {
-  margin: 0 0.5rem;
-
-}
-
 .productText {
-  color: var(--white);
   font: 1em/108% "Gotham-Regular", sans-serif;
 }
 
 .marketingText {
-  color: var(--white);
   font: 1.66em/107% "PlayFairDisplay-Medium", sans-serif;
   padding: 3rem 0;
 }

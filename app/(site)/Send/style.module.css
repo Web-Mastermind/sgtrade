@@ -3,32 +3,35 @@
 }
 
 .sendItems {
-  width: 506px;
+  width: 28.2rem;
   padding: 44px 45px;
   margin: 5.5rem auto 0;
-  background-color: var(--black);
+  background-color: var(--black, #000);
   text-align: center;
   border-radius: 5px;
 }
 
+.white {
+  color: var(--white, #fff);
+}
+
 .sendTitle {
   font: 3em/107.7% "PlayFairDisplay-Medium", sans-serif;
-  color: var(--white);
   margin-bottom: 2rem;
 }
 
 .sendSpan {
-  color: var(--electric);
+  color: var(--electric, #04C1C1);
 }
 
 .sendText {
- color: var(--grey);
+ color: var(--grey, #C8C8C8);
  font: 1.22em/145% "RadioCanada-Light", sans-serif;
 }
 
 .sendInput {
   display: block;
-  width: 416px;
+  width: 23.2rem;
   margin: 1.5rem 0;
 }
 
@@ -36,9 +39,8 @@
   resize: none;
 }
 
-.colorWhite {
+.borderWhite {
   border: 1px solid var(--white);
-  color: var(--white);
 }
 
 .colorBlack {
@@ -53,18 +55,20 @@
   font: 1em/107.7% "Gotham-Light", sans-serif;
 } 
 
-.btnCase {
+.flex {
   display: flex;
+}
+
+.btnCase {
   justify-content: flex-end;
 }
 
 .sendBtn {
   padding: 20px;
-  background-color: var(--green);
+  background-color: var(--green, #63DEA6);
   font: 1em/1.22em "RadioCanada-Medium", sans-serif;
   margin-top: 1em;
   cursor: pointer;
-  display: flex;
   align-items: center;
 }
 
