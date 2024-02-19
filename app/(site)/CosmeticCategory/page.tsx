@@ -17,18 +17,18 @@ const CosmeticCategory = async () => {
       <main className={styles.categoryPage}>
         <div className="container">
           <div className={styles.categoryItems}>
-            <h2 className={styles.categoryTitle}>Kosmetik vasitələrin topdan satışı</h2>
-            <div className={styles.productContainer}>
+            <h2 className={`${styles.categoryTitle} ${styles.white}`}>Kosmetik vasitələrin topdan satışı</h2>
+            <div className={`${styles.productContainer} ${styles.flex}`}>
               <CustomizedAccordions />
-              <div className={styles.productInfoContainer}>
+              <div className={`${styles.productInfoContainer} ${styles.flex}`}>
                 {
                   data.map(({ id, imageSrc, alt, text }: product) => {
                     return (
                       <div key={id} className={styles.productInfo}>
                         <Image src={imageSrc} alt={alt} width={305} height={277} />
-                        <div className={styles.productAdd}>
+                        <div className={`${styles.productAdd} ${styles.flex}`}>
                           <Link href={`/CosmeticCategory/${id}`}><Image className={styles.plusIcon} src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
-                          <p className={styles.productText}>{text}</p>
+                          <p className={`${styles.productText} ${styles.white}`}>{text}</p>
                         </div>
                       </div>
                     )
@@ -37,7 +37,7 @@ const CosmeticCategory = async () => {
               </div>
             </div>
           </div>
-          <h3 className={styles.marketingText}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti qui, at inventor</h3>
+          <h3 className={`${styles.marketingText} ${styles.white}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti qui, at inventor</h3>
           <div className={styles.listItem}>
             <p className={styles.alcoholText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi porro vel, excepturi cupiditate saepe beatae eos illum unde sapiente.</p>
             <ul className={styles.alcoholList}>
