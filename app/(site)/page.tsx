@@ -3,29 +3,38 @@ import React, { useRef, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import styles from "./style.module.css"
 import Link from 'next/link';
 import Image from 'next/image';
 import Products from '@/Components/Products';
-import axios from 'axios';
 import { swiper } from "@/src/Types/Interface"
 import Request from '@/Components/Request';
 import Quote from '@/Components/Quote';
+import { SwiperLinks } from '@/src/links/Links';
 
-const url: string = process.env.NEXT_PUBLIC_DATA || "";
 
-
-const Home = async () => {
-  const { data } = await axios.get(url)
+const Home = () => {
+  const [init, setInit] = useState(false)
   return (
     <>
       <main className={styles.main}>
         <div className="container">
           <div className={styles.sliderContainer}>
-            <Swiper navigation={true} modules={[Navigation]} className={styles.swiper}>
+            <Swiper slidesPerView={1}
+              onInit={() => {
+                setInit(!init);
+              }}
+              loop={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay, Navigation]}
+
+              navigation={true} className={styles.swiper}>
               {
-                data.map(({ id, title, span, text, img, slideImage }: swiper) => {
+                SwiperLinks.map(({ id, title, span, text, img, slideImage }) => {
                   return (
                     <SwiperSlide key={id}>
                       <div className={`${styles.swiperItemsMain} ${styles.flex}`}>
