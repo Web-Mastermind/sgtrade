@@ -15,18 +15,18 @@ const CategoryPage = async () => {
       <main className={styles.categoryPage}>
         <div className="container">
           <div className={styles.categoryItems}>
-            <h2 className={styles.categoryTitle}>Coca-Cola sərinləşdirici içkilərin topdan satışı</h2>
-            <div className={styles.productContainer}>
+            <h2 className={`${styles.categoryTitle} ${styles.white}`}>Coca-Cola sərinləşdirici içkilərin topdan satışı</h2>
+            <div className={`${styles.productContainer} ${styles.flex}`}>
               <CustomizedAccordions />
-              <div className={styles.productInfoContainer}>
+              <div className={`${styles.productInfoContainer} ${styles.flex}`}>
                 {
                   data.map(({ id, imageSrc, alt, text }: product) => {
                     return (
                       <div key={id} className={styles.productInfo}>
                         <Image src={imageSrc} alt={alt} width={305} height={277} />
-                        <div className={styles.productAdd}>
+                        <div className={`${styles.productAdd} ${styles.flex}`}>
                           <Link href={`/CategoryPage/${id}`}><Image src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
-                          <p className={styles.productText}>{text}</p>
+                          <p className={`${styles.productText} ${styles.white}`}>{text}</p>
                         </div>
                       </div>
                     )
@@ -35,7 +35,7 @@ const CategoryPage = async () => {
               </div>
             </div>
           </div>
-          <h3 className={styles.marketingText}>Coca-Cola şirkəti sərinləşdirici içkilərin topdan satışı - bazarda ən yaxşı şərtlər</h3>
+          <h3 className={`${styles.marketingText} ${styles.white}`}>Coca-Cola şirkəti sərinləşdirici içkilərin topdan satışı - bazarda ən yaxşı şərtlər</h3>
           <div className={styles.listItem}>
             <p className={styles.alcoholText}>Coca-Cola Alkoqolsuz İçkilər Kataloq səhifəmizə xoş gəlmisiniz, burada yüksək keyfiyyətli Coca-Cola içkilərinin müxtəlif seçimi var. Üstünlükləri kəşf edin:</p>
             <ul className={styles.alcoholList}>
