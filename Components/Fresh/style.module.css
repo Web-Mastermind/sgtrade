@@ -49,3 +49,50 @@
   text-align: center;
   padding: 5rem 0;
 }
+
+@media (max-width:360px) {
+  .aboutItems {
+    margin: 1rem 0;
+  }
+  
+  .flex,
+  .aboutImage,
+  .operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colaSprite {
+    width: 90vw;
+    height: auto;
+  }
+  
+  .aboutTextCont {
+    margin-top: 20px; 
+    border-left: none;
+    width: 100vw; 
+  }
+  
+  .aboutText {
+    font-size: 1.1em;  
+    padding: 0rem 1rem;
+    text-align: justify;
+  }
+  
+  .aboutTitle {
+    font-size: 1.5em;
+  }
+  
+  .operation {
+    margin-bottom: 3rem;
+  }
+  
+  .operationText {
+    width: 80%;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3rem 0; 
+  }
+  
+}
