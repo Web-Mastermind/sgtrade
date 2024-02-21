@@ -75,3 +75,32 @@
 .sendBtnIcon {
   margin-right: 7px;
 }
+
+@media (max-width:360px) {
+  .sendItems {
+    width: 90vw;
+    padding: 24px 25.7px;
+    margin: 3.5rem auto 0;
+    text-align: center;
+  }
+
+  .sendTitle {
+    font-size: 2em;
+  }
+
+  .sendText {
+    font-size: 1em;
+    text-align: justify;
+  }
+  
+  .sendInput,
+  .sendTextArea {
+    width: 15rem;
+  }
+
+  .sendBtn {
+    padding: 15px;
+    font-size: 0.9em;
+  }
+  
+}
