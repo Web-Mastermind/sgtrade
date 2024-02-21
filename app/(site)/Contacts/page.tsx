@@ -31,13 +31,13 @@ const Contacts = () => {
                   <div className={`${styles.contactsBarcode} ${styles.flex}`}>
                     {
                       SocialLinks.map(({ id, to, imageSrc, alt }) => {
-                        return (<Link key={id} className={styles.contactsSocLinks} target="_blank" href={to}><Image src={imageSrc} alt={alt} width={32} height={32} /></Link>)
+                        return (<Link key={id} className={styles.contactsSocLinks} target="_blank" href={to}><Image className={styles.soclinksIcons} src={imageSrc} alt={alt} width={32} height={32} /></Link>)
                       })
                     }
                   </div>
                 </div>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2303.318891150493!2d25.301807444019197!3d54.73919448770669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2saz!4v1707131838499!5m2!1sru!2saz" width="680" height="283"></iframe>
+              <iframe className={styles.iFrame} src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2303.318891150493!2d25.301807444019197!3d54.73919448770669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2saz!4v1707131838499!5m2!1sru!2saz" width="680" height="283"></iframe>
             </div>
           </div>
         </div>
