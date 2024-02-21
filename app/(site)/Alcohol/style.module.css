@@ -29,3 +29,17 @@
   padding-bottom: 2rem;
 }
 
+@media (max-width:360px) {
+  .alcoholArticle {
+    background: url(/assets/img/alcoholbg.png) no-repeat right center / cover ;
+  }
+  
+  .alcoholTitle {
+    font-size: 2.5em;
+    padding: 3rem 0 4rem;
+  }
+  
+  .dataText {
+    font-size: 1em;
+  }
+}
