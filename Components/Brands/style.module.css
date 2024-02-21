@@ -17,3 +17,25 @@
 .brandsImage {
   margin-top: 2.5rem;
 }
+
+@media (max-width:360px) {
+  .sectionBrands {
+    padding: 2.5rem 0;
+  }
+  
+  .brandsTitle {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+
+  .brandsText {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  .brandsImage {
+    margin-top: 1.5rem;
+    width: 95vw;
+    height: 15vh;
+  }
+}
