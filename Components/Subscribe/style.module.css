@@ -68,3 +68,28 @@
   color: rgb(184, 184, 184);
   font: 1em/0.94em "Gotham-Light", sans-serif;
 } 
+
+@media (max-width:360px) {
+  .newsReqsub,
+  .requestContainer,
+  .subscribeContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .requestContainer,
+  .subscribeContainer {
+    text-align: center;
+    width: 90vw;
+    height: 15vh;
+    margin: 1.5rem 0;
+  }
+
+  .requestText {
+    display: none;
+  }
+
+  .subscribeText {
+    font-size: 1em;
+  }
+}
