@@ -27,3 +27,20 @@
 .width {
   width: 27em;
 }
+@media (max-width:360px) {
+  .aboutTitle {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .aboutImage {
+    display: flex;
+    margin: 1rem auto;
+  }
+
+  .aboutText {
+    font-size: 0.7em;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}
