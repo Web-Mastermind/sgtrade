@@ -10,7 +10,6 @@ const Header = () => {
   const [burgerMenuOpen, setBurgerMenuOpen] = useState(false);
 
   const ref = useOutsideClick(() => {
-    console.log('click outsides');
     setBurgerMenuOpen(false);
   })
   const toggleBurgerMenu = () => {
