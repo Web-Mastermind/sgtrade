@@ -38,3 +38,15 @@
   color: var(--dark-grey);
   font:  0.88em/0.83em "Gotham-Regular", sans-serif;
 }
+
+@media (max-width:360px) {
+  .newsItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsTitle {
+    text-align: center;
+  }
+}
