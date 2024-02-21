@@ -15,7 +15,7 @@
 }
 
 .sectioTitle {
-  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  font: 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
   margin-right: 3.33rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .sectionText {
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;
 }
 
 .sectionProducts {
@@ -69,36 +69,49 @@
 }
 
 @media (max-width:360px) {
-  .sectioItems {
+   .sectioItems {
     padding-top: 2.5rem;
   }
-
+  
   .sectionTitles {
     display: block;
   }
-
+  
   .sectionProducts {
     padding-bottom: 2.5rem;
   }
-
+  
   .sectioTitle {
     font-size: 2em;
     margin-bottom: 15px;
     text-align: center;
   }
-
-  .sectionText {
+  
+   .sectionText {
     font-size: 1em;
     text-align: justify;
   }
-
+  
+  .sectionProducts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .beveragesLink,
+  .confectLink,
+  .alcoholLink,
+  .cosmeticsLink,
+  .cleanlinessLink {
+    padding: 1.5rem 2rem 15rem 1.5rem;
+    width: 100%; 
+  }
+   
+  .linkFonts {
+    font-size: 1.30em;
+  }
+  
   .productsLinks {
     margin: 2.2rem 1rem 0 0;
-  }
-
-  .productImages {
-    width: 250px;
-    height: 240px;
   }
  
  }
