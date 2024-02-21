@@ -23,7 +23,7 @@
 
 .mainText {
   color: var(--grey, #C8C8C8);
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;
   margin-bottom: 3.6em;
 }
 
@@ -36,32 +36,43 @@
 }
 
 @media (max-width:360px) {
- .swiperItemsMain {
-  display: block;
-  padding: 1.5rem 3rem 0 3rem;
- }
- 
- .mainTitle {
-  text-align: center;
-  font-size: 2.3em;
-  line-height: 100%;
-  margin-bottom: 1rem;
-}
-
-.mainText {
-  text-align: center;
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
-  margin-bottom: 1.6em;
-}
-
-.linkItems {
-  padding: 10px 10px;
-  margin-bottom: 2rem;
-}
-
-.sliderImgItem {
-  width: 300px;
-  height: 300px;
-}
+  .sliderContainer {
+    height: 100vh;
+  }
+  .swiperItemsMain {
+    padding: 3rem 1rem 0 1rem;
+    margin-top: 4rem;
+  }
+  
+  .flex {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .mainTitle {
+    font-size: 2em;
+    margin-bottom: 0.8em; 
+    text-align: center; 
+  }
+  
+  .mainText {
+    font-size: 1em;
+    margin-bottom: 2.4em; 
+    text-align: center; 
+  }
+  
+  .linkItems {
+    font-size: 0.9em;
+    padding: 15px 16px; 
+    display: inline-block; 
+    margin: 0 0  1em 40px;
+  }
+  
+  .sliderImgItem {
+    width: 100vw;
+    height: 100vw;
+    padding: 15px ;
+    margin-top: 50px; 
+   }
 
 }
