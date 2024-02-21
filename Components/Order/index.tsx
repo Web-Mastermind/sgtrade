@@ -14,7 +14,7 @@ const Order = () => {
             </div>
           </div>
           <div className={styles.articleImage}>
-            <Image src="/assets/img/palet.png" alt="Palet Image" width={520} height={520} />
+            <Image className={styles.paletImg} src="/assets/img/palet.png" alt="Palet Image" width={520} height={520} />
           </div>
         </div>
         <div className={`${styles.orderContainer} ${styles.flex}`}>
