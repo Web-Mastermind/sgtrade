@@ -46,14 +46,6 @@ export const CategoryLinks = [
   { id: 5, to: "/CleanCategory", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
 ]
 
-// export const FeaturesLeftLinks = [
-//   { id: 1, imageSrc: "/assets/icon/volume.svg", alt: "pcs Icon", width: 16, height: 18, to: "/", text: "1 ədədin həcmi:" },
-//   { id: 2, imageSrc: "/assets/icon/packaging.svg", alt: "Package Icon", width: 16, height: 18, to: "/", text: "Qablaşdırma:" },
-//   { id: 3, imageSrc: "/assets/icon/packaging.svg", alt: "Netto Icon", width: 16, height: 18, to: "/", text: "Xalis çəkisi:" },
-//   { id: 4, imageSrc: "/assets/icon/brutto.svg", alt: "Brutto Icon", width: 16, height: 18, to: "/", text: "Brutto çəkisi:" },
-// ]
-
-
 export const FooterLeftLinks = [
   { id: 1, to: "/impt", title: "İmport/Eksport", imageSrc: "/assets/icon/import.svg", alt: "Phone Icon", width: 15, height: 15 },
   { id: 2, to: "/About", title: "Haqqımızda", imageSrc: "/assets/icon/about.svg", alt: "Phone Icon", width: 15, height: 15 },
