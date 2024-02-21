@@ -1,8 +1,17 @@
 import Image from "next/image"
 import styles from "./style.module.css"
 import { Trophy } from "@/src/links/Links"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Quote = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <article className={styles.article}>
       <div className="container">
@@ -17,7 +26,7 @@ const Quote = () => {
           {
             Trophy.map(({ id, src, alt, width, height, title, text }) => {
               return (
-                <div key={id} className={styles.trophyItems}>
+                <div data-aos="zoom-in-left" key={id} className={styles.trophyItems}>
                   <Image className={styles.quoteIcon} src={src} alt={alt} width={width} height={height} />
                   <h4 className={`${styles.trophyTitle} ${styles.selection}`}>{title}</h4>
                   <p className={styles.trophyText}>{text}</p>
