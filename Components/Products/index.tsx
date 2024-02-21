@@ -1,8 +1,17 @@
 import Link from "next/link"
-import styles from "./style.module.css"
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { CategoryLinks } from "@/src/links/Links"
+import styles from "./style.module.css"
+import { useEffect } from "react";
 
 const Products = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <section className={styles.section}>
@@ -16,7 +25,7 @@ const Products = () => {
           <div className={styles.sectionProducts}>
             {
               CategoryLinks.map(({ id, to, title, className, className2, className3 }) => {
-                return (<Link key={id} className={`${styles[className]} ${styles[className2]} ${styles[className3]}`} href={to}>{title}</Link>)
+                return (<Link data-aos="zoom-in" key={id} className={`${styles[className]} ${styles[className2]} ${styles[className3]}`} href={to}>{title}</Link>)
               })
             }
           </div>
