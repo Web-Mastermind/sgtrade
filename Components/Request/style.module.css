@@ -1,11 +1,11 @@
-.sectionTitle {
-  color: var(--white);
-  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
-  margin-bottom: 3rem;
+.mainItems {
+  flex-direction: column;
 }
 
-.center {
-  text-align: center;
+.sectionTitle {
+  color: var(--white);
+  font: 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  margin-bottom: 3rem;
 }
 
 .sectionSpan {
@@ -13,9 +13,8 @@
 }
 
 .sectionLinks {
-  display: block;
   color: var(--white);
-  font: 400 1em "Gotham-Light", sans-serif;
+  font: 1em "Gotham-Light", sans-serif;
   margin-bottom: 15px;
 }
 
@@ -24,14 +23,15 @@
 }
 
 .flex,
-.wroldItem {
+.wroldItem,
+.mainItems {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .sectionContactsLinks {
-  font: 400 1em "Gotham-Light", sans-serif;
+  font: 1em "Gotham-Light", sans-serif;
   border-bottom: 3px solid var(--electric);
   padding: 3rem 0 0.7rem;
   margin: 0 4rem;
