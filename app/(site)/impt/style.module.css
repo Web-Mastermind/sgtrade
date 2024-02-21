@@ -8,7 +8,7 @@
 
 .importTitle{
   color: var(--white);
-  font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
 }
 
 .importImage {
@@ -17,7 +17,7 @@
 
 .importText {
   color: var(--white);
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;
 }
 
 .width {
@@ -34,4 +34,25 @@
 
 .between {
   justify-content: space-between;
+}
+
+@media (max-width:360px) {
+  .importItems {
+    background: url(/assets/img/importbg.png) no-repeat center right / cover ;
+  }
+  .importTitle {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .importImage {
+    display: flex;
+    margin: 1.5rem auto;
+  }
+
+  .importText {
+    font-size: 0.7em; 
+    width: 95vw;
+    text-align: center;
+  }
 }
