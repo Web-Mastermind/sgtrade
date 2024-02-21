@@ -73,3 +73,71 @@
    padding: 15px 100px;
    margin: 10px 10px;
  }
+
+ @media (max-width:360px) {
+  .importArticle {
+    padding-top: 3rem;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .articleTitle,
+  .deliveryTitle  {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  .articleText {
+    font-size: 1em;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .paletImg {
+    width: 100%;
+    height: auto;
+  }
+  
+  .articleTextCont {
+    margin-top: 20px;
+    border-left: 2px solid var(--electric, #04C1C1);
+    height: auto;
+  }
+  
+  .width {
+    width: 100%;
+  }
+  
+  .orderContainer {
+    gap: 10px;
+    margin: 3rem 0;
+  }
+  
+  .articleDelivery {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .deliveryImage {
+    margin-top: 1rem;
+  }
+  
+  .optionText {
+    font-size: 1em;
+  }
+  
+  .palletText {
+    font-size: 1.2em;
+    margin: 1rem 0;
+   }
+   
+   .optionText {
+     padding: 10px;
+     margin: 5px;
+   }
+  
+ }
