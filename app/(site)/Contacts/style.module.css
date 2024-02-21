@@ -4,7 +4,7 @@
 
 .contactsMain {
   width: 38rem;
-  background-color: var(--black);
+  background-color: var(--black, #000);
   padding: 3rem 3rem;
 }
 
@@ -64,6 +64,33 @@
 }
 
 .contactsSocLinks:not(:last-child) {
-  margin-right: 28px;
+  margin-right: 24px;
   height: fit-content;
+}
+
+@media (max-width:360px) {
+  .contactsMain,
+  .iFrame {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .contactsTitle {
+    text-align: center;
+  }
+
+  .contactsContainer,
+  .contactsLink,
+  .contactsMain {
+    flex-direction: column;
+  }
+
+
+  .contactsLink {
+    align-items: center;
+  }
+
+  .contactsBarcode {
+    display: none;
+  }
 }
