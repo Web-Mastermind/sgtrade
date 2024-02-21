@@ -16,7 +16,7 @@ const AboutSection = () => {
               </div>
             </div>
             <div className={styles.aboutImage}>
-              <Image src="/assets/img/colasprite.png" alt="Cola Image" width={458} height={458} />
+              <Image className={styles.colaSprite} src="/assets/img/colasprite.png" alt="Cola Image" width={458} height={458} />
             </div>
           </div>
           <div className={styles.operation}>
