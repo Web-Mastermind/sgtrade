@@ -1,5 +1,6 @@
 .section {
   background: radial-gradient(64.04% 69.77% at 50% 50%, #222325 0%, #181818 100%);
+  padding-top: 5.5rem;
 }
 
 .sectioItems {
@@ -69,6 +70,9 @@
 }
 
 @media (max-width:360px) {
+  .section {
+    padding-top: 4rem;
+  }
    .sectioItems {
     padding-top: 2.5rem;
   }
