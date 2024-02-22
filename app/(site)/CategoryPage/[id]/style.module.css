@@ -117,3 +117,163 @@
 .white {
   color: var(--white, #fff);
 }
+
+@media (max-width: 1024px) {
+
+  .singleTitle,
+  .logisticTitle {
+    font-size: 2em;
+    padding: 2rem 0 1.5rem;
+  }
+
+  .singleImageItems {
+    gap: 15px;
+    margin-left: 0.5rem;
+  }
+
+  .requestContainer {
+    width: auto;
+    padding: 1.5rem 0.5rem;
+  }
+
+  .featuresInfo {
+    gap: 8rem;
+    padding: 0.5rem ;
+  }
+
+  .map:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  .featuresTextItem,
+  .featuresMainTextItem {
+    font-size: 0.8em;
+  }
+
+  .logisticTitle {
+    padding: 1rem 0 0.5rem;
+  }
+
+  .logisticContainer {
+    gap: 8px;
+  }
+
+  .logisticItems {
+    width: 13rem;
+    padding: 0.3rem 0.2rem;
+  }
+
+  .logisticText {
+    font-size: 0.8em;
+  }
+
+  .productDesc {
+    font-size: 0.9em;
+    line-height: 130%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width:360px) {
+  
+  
+  .logisticTitle {
+    font-size: 2.5em;
+    padding: 3rem 0 2rem;
+  }
+
+  .singleTitle {
+    font-size: 1.5em;
+  }
+  
+  .flex {
+    flex-wrap: wrap;
+  }
+  
+  .singleImageItems {
+    gap: 10px; 
+    margin-left: 0.5rem;
+  }
+  
+  .singleImage {
+    width: 84vw;
+    height: auto;
+  } 
+
+  .requestContainer {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  
+  .singlesubText {
+    font-size: 0.8em;
+    margin-right: 10px;
+  }
+  
+  .requestLink {
+    padding: 0.5rem;
+  }
+  
+  .requestImage {
+    margin-right: 3px;
+  }
+  
+  .requestLinkItem {
+    font-size: 0.9em;
+  }
+  
+  .singleFeatures {
+    font-size: 1.2em;
+    margin: 8px;
+  }
+  
+  .featuresInfoItems {
+    gap: 3px; 
+  }
+  
+  .featuresInfo {
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 0.5rem ;
+  }
+  
+  .map:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+  
+  .featuresTextItem,
+  .featuresMainTextItem {
+   font-size: 0.8em;
+  }
+  
+  .logisticTitle {
+    padding: 1.5rem 0 1rem;
+  }
+  
+  .logisticContainer {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logisticItems {
+    margin: 0 auto;
+    padding: 0.5rem 0.25rem 0.1rem; 
+  }
+  
+  .logisticText,
+  .logisticSecondText,
+  .productDesc {
+    font-size: 0.9em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .productDesc {
+    font-size: 1em; 
+    line-height: 135%; 
+    margin-bottom: 3rem; 
+  }
+  
+}
