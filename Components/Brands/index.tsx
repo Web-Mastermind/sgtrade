@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import brands from "@/public/assets/img/brands.png"
+import { CarouseUpLinks } from '@/src/links/Links'
 import styles from "./style.module.css"
+import Image from 'next/image'
 
 const Brands = () => {
   return (
@@ -9,7 +9,19 @@ const Brands = () => {
         <div className={styles.brandsItems}>
           <h2 className={styles.brandsTitle}>İşlədiyimiz brendlər</h2>
           <p className={styles.brandsText}>Biz geniş çeşiddə məşhur məhsulları təklif edirik, o cümlədən:</p>
-          <Image className={styles.brandsImage} src={brands} alt="Brands Icons" />
+        </div>
+      </div>
+      <div className={styles.slider}>
+        <div className={styles.slideTrack}>
+          {
+            CarouseUpLinks.map(({ id, imageSrc, alt, width, height }) => {
+              return (
+                <div key={id} className={styles.slide}>
+                  <Image src={imageSrc} alt={alt} width={width} height={height} />
+                </div>
+              )
+            })
+          }
         </div>
       </div>
     </section>
