@@ -55,3 +55,63 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
 .alcoholTextEnd {
   margin-bottom: 1.5rem;
 }
+
+@media (max-width:360px) {
+  .categoryPage {
+    margin-top: 3rem; /* Reduced margin */
+  }
+  
+  .white {
+    color: var(--white, #fff);
+  }
+  
+  .categoryTitle {
+    font-size: 2.5em; /* Reduced font size */
+    padding: 2rem 0; /* Reduced padding */
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column; /* Adjusted for smaller screens */
+  }
+  
+  .productInfoContainer {
+    gap: 10px; /* Reduced gap */
+  }
+  
+  .productAdd {
+    align-items: center;
+    justify-content: center; /* Centered content */
+    background-color: var(--black);
+    padding: 1rem; /* Reduced padding */
+  }
+  
+  .productText {
+    font-size: 0.8em; /* Reduced font size */
+  }
+  
+  .marketingText {
+    font-size: 1.3em; /* Reduced font size */
+    padding: 2rem 0; /* Reduced padding */
+  }
+  
+  .alcoholText,
+  .alcoholTextEnd {
+    color: var(--grey);
+    font-size: 0.9em; /* Reduced font size */
+  }
+  
+  .alcoholText {
+    margin-bottom: 2rem; /* Reduced margin */
+  }
+  
+  .alcoholList {
+    margin: 1.2rem; /* Reduced margin */
+  }
+  
+  .listText,
+  .alcoholTextEnd {
+    margin-bottom: 1rem; /* Reduced margin */
+  }
+  
+}
