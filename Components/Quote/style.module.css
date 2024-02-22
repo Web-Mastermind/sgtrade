@@ -57,6 +57,34 @@
   padding-bottom: 2rem;
 }
 
+@media only screen and (max-width: 992px) {
+  .articleTitle {
+    font-size: 2em; /* Adjust font size */
+    margin-right: 1.5rem; /* Reduce margin */
+  }
+
+  .articleItems {
+    padding-top: 3rem; /* Adjust padding */
+  }
+
+  .trophy {
+    margin-top: 3rem; /* Adjust margin */
+  }
+
+  .trophyItems {
+    max-width: 100%; /* Adjust max-width */
+  }
+
+  .trophyTitle {
+    font-size: 1.2em; /* Adjust font size */
+  }
+
+  .trophyText {
+    font-size: 0.9em; /* Adjust font size */
+  }
+}
+
+
 @media (max-width:360px) {
   .articleItems {
     padding-top: 2rem;
