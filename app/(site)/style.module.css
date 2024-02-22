@@ -35,6 +35,37 @@
   display: inline-flex;
 }
 
+@media (max-width: 992px) {
+  .swiperItemsMain {
+    padding: 4rem 2rem 0 2rem;
+    margin-top: 4rem;
+  }
+  .mainTitle {
+    font-size: 2.5em;
+    margin-bottom: 0.8em; 
+    text-align: center; 
+  }
+  
+  .mainText {
+    font-size: 1.1em;
+    margin-bottom: 2.4em; 
+    text-align: center; 
+  }
+
+  .sliderImgItem {
+    width: 50vw;
+    /* height: 80%; */
+  }
+  
+  .linkItems {
+    font-size: 1em;
+    padding: 16px 20px; 
+    display: inline-block; 
+    margin: 0 0  1em 0;
+  }
+}
+
+
 @media (max-width:360px) {
   .sliderContainer {
     height: 100vh;
