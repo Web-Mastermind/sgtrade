@@ -57,7 +57,7 @@
   padding-bottom: 2rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .articleTitle {
     font-size: 2em; /* Adjust font size */
     margin-right: 1.5rem; /* Reduce margin */
