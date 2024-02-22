@@ -11,16 +11,69 @@
 
 .brandsText {
   color: var(--white);
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;  
+  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  margin-bottom: 2.5rem;  
 }
 
 .brandsImage {
   margin-top: 2.5rem;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+.slider {
+  height: 110px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgb(33, 33, 33) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slideTrack {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slideTrack:hover {
+  animation-play-state: paused;
+}
+
+.slider .slide {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
 @media (max-width:360px) {
   .sectionBrands {
-    padding: 2.5rem 0;
+    padding: 3rem 0;
   }
   
   .brandsTitle {
@@ -33,9 +86,4 @@
     line-height: 1.5;
   }
 
-  .brandsImage {
-    margin-top: 1.5rem;
-    width: 95vw;
-    height: 15vh;
-  }
 }
