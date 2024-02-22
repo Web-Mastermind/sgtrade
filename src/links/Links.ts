@@ -58,3 +58,20 @@ export const FooterRightLinks = [
   { id: 2, to: "/News", title: "Şirniyyatlar" },
   { id: 3, to: "/Contacts", title: "Alkoqollu içkilər" },
 ]
+
+export const CarouseUpLinks = [
+  { id: 1, imageSrc: "/assets/img/Brandcola.png", alt: "Coca Cola Brand", width: 159.6, height: 51.85 },
+  { id: 2, imageSrc: "/assets/img/Brandmars.png", alt: "Mars Brand", width: 159.53, height: 66.28 },
+  { id: 3, imageSrc: "/assets/img/Brandsnickers.png", alt: "Snickers Brand", width: 168.55, height: 40.85 },
+  { id: 4, imageSrc: "/assets/img/Brandfanta.png", alt: "Fanta Brand", width: 130.47, height: 96.39 },
+  { id: 5, imageSrc: "/assets/img/Brandsprite.png", alt: "Sprite Brand", width: 151.15, height: 106.81 },
+  { id: 6, imageSrc: "/assets/img/Brandkitkat.png", alt: "Kit Kat Brand", width: 149.85, height: 97.38 },
+  { id: 7, imageSrc: "/assets/img/Brandkinder.png", alt: "Coca Cola Brand", width: 110.32, height: 35.89 },
+  { id: 8, imageSrc: "/assets/img/Brandmilka.png", alt: "Mars Brand", width: 168, height: 94.5 },
+  { id: 9, imageSrc: "/assets/img/Brandtwix.png", alt: "Snickers Brand", width: 168, height: 105 },
+  { id: 10, imageSrc: "/assets/img/Brandbounty.png", alt: "Fanta Brand", width: 168, height: 94.5 },
+  { id: 11, imageSrc: "/assets/img/Brandorbit.png", alt: "Sprite Brand", width: 168, height: 94.5 },
+  { id: 12, imageSrc: "/assets/img/Brandskittles.png", alt: "Kit Kat Brand", width: 168, height: 94.48 },
+  { id: 13, imageSrc: "/assets/img/Brandmars.png", alt: "Mars Brand", width: 159.53, height: 66.28 },
+  { id: 14, imageSrc: "/assets/img/Brandcola.png", alt: "Coca Cola Brand", width: 159.6, height: 51.85 }
+]
