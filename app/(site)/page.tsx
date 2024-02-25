@@ -35,7 +35,7 @@ const Home = () => {
               {
                 SwiperLinks.map(({ id, title, span, text, img, slideImage }) => {
                   return (
-                    <SwiperSlide key={id}>
+                    <SwiperSlide id={styles.swiperWrapper} key={id}>
                       <div className={`${styles.swiperItemsMain} ${styles.flex}`}>
                         <div className={styles.swiperItems}>
                           <h1 className={styles.mainTitle}>{title} <span className={styles.titleSpan}>{span}</span></h1>
