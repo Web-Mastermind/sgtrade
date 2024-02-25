@@ -56,6 +56,49 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
   margin-bottom: 1.5rem;
 }
 
+@media (max-width:480px) {
+  .categoryPage {
+    margin-top: 3rem;
+  }
+  
+  .categoryTitle {
+    font-size: 2em;
+    padding: 3rem 0;
+  }
+  
+  .flex {
+    flex-direction: column;
+  }
+  
+  .productText {
+    font-size: 1em;
+  }
+  
+  .marketingText {
+    font-size: 1.4em;
+    padding: 2rem 0;
+  }
+  
+  .alcoholText,
+  .alcoholTextEnd {
+    font-size: 1em;
+  }
+  
+  .alcoholText {
+    margin-bottom: 2rem;
+  }
+  
+  .alcoholList {
+    margin: 1.2rem;
+  }
+  
+  .listText,
+  .alcoholTextEnd {
+    margin-bottom: 1rem;
+  }
+  
+}
+
 @media (max-width:360px) {
   .categoryPage {
     margin-top: 3rem; /* Reduced margin */

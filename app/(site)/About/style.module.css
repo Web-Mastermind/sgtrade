@@ -27,6 +27,25 @@
 .width {
   width: 27em;
 }
+
+@media (max-width:480px) {
+  .aboutTitle {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .aboutImage {
+    display: flex;
+    margin: 1.3rem auto;
+  }
+
+  .aboutText {
+    font-size: 0.93em;
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+}
+
 @media (max-width:360px) {
   .aboutTitle {
     font-size: 1.5em;

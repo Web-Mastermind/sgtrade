@@ -39,7 +39,7 @@
   font:  0.88em/0.83em "Gotham-Regular", sans-serif;
 }
 
-@media (max-width:360px) {
+@media (max-width:480px) {
   .newsItems {
     display: flex;
     flex-direction: column;

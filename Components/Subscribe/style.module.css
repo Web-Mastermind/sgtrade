@@ -69,7 +69,7 @@
   font: 1em/0.94em "Gotham-Light", sans-serif;
 } 
 
-@media (max-width:360px) {
+@media (max-width:480px) {
   .newsReqsub,
   .requestContainer,
   .subscribeContainer {

@@ -54,6 +54,25 @@
   margin-top: 4rem;
 }
 
+@media (max-width:480px) {
+  .sectionTitle {
+    font-size: 2.5em;
+  }
+
+  .sectionContactsLinks {
+    font-size: 1em;
+    margin: 0 1rem;
+  }
+
+  .contactIcon {
+    margin-right: 5px;
+  }
+
+  .contactWorld {
+    height: 17vh;
+   }
+}
+
 
 @media (max-width:360px) {
   .sectionTitle {

@@ -68,6 +68,28 @@
   height: fit-content;
 }
 
+@media (max-width:480px) {
+  .contactsMain,
+  .iFrame {
+    width: 92vw;
+    margin: 0 auto;
+  }
+
+  .contactsContainer,
+  .contactsLink,
+  .contactsMain {
+    flex-direction: column;
+  }
+
+  .textItems {
+    justify-content: space-between;
+  }
+
+  .contactsBarcode {
+    display: none;
+  }
+}
+
 @media (max-width:360px) {
   .contactsMain,
   .iFrame {

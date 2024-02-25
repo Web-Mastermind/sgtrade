@@ -50,6 +50,52 @@
   padding: 5rem 0;
 }
 
+@media (max-width:480px) {
+  .aboutItems {
+    margin: 1.5rem 0;
+  }
+  
+  .flex,
+  .aboutImage,
+  .operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colaSprite {
+    width: 92vw;
+    height: auto;
+  }
+  
+  .aboutTextCont {
+    border-left: 1px solid;
+    width: 100vw; 
+  }
+  
+  .aboutText {
+    font-size: 1.2em;  
+    margin-bottom: 50px;
+    padding: 0rem 0.9rem;
+    text-align: justify;
+  }
+  
+  .aboutTitle {
+    font-size: 2.2em;
+  }
+  
+  .operation {
+    margin-bottom: 3rem;
+  }
+  
+  .operationText {
+    width: 90vw;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 3rem 0.5rem; 
+  }
+}
+
 @media (max-width:360px) {
   .aboutItems {
     margin: 1rem 0;

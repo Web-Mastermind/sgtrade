@@ -29,6 +29,38 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
   margin: 2.5rem 0;
 }
 
+@media (max-width:480px) {
+  .alcoholCompany {
+    width: 100%; 
+  }
+  
+  .alcoholTitle {
+    font-size: 1.7em;
+    margin: 2rem 0 1.25rem;
+  }
+  
+  .alcoholText,
+  .alcoholTextEnd {
+    font-size: 0.9em;
+  }
+  
+  .alcoholList {
+    margin: 1.6rem;
+  }
+  
+  .listText,
+  .alcoholTextEnd {
+    margin-bottom: 1rem;
+  }
+  
+  .alcoholImage {
+    margin: 1.5rem 0;
+    width: 95vw;
+    height: 30vh;
+  }
+  
+}
+
 @media (max-width:360px) {
   .alcoholCompany {
     width: 100%; 

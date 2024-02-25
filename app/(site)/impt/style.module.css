@@ -36,10 +36,25 @@
   justify-content: space-between;
 }
 
-@media (max-width:360px) {
-  .importItems {
-    background: url(/assets/img/importbg.png) no-repeat center right / cover ;
+@media (max-width:480px) {
+  .importTitle {
+    font-size: 2em;
+    text-align: center;
   }
+
+  .importImage {
+    display: flex;
+    margin: 1.5rem auto;
+  }
+
+  .importText {
+    font-size: 0.9em; 
+    width: 95vw;
+    text-align: justify;
+  }
+}
+
+@media (max-width:360px) {
   .importTitle {
     font-size: 2em;
     text-align: center;

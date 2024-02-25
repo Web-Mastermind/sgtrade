@@ -1,5 +1,5 @@
 export const SwiperLinks = [
-  { id: 1, title: "Müstəsna İçki İdxalları üçün", span: "Etibarlı Mənbəniz", text: "Birbaşa Tanınmış İstehsalçılardan Premium İçkilər Dünyasını kəşf edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cola.png", to: "" },
+  { id: 1, title: "Eksklüziv içkilərin etibarlı", span: "idxal mənbəniz", text: "Birbaşa Tanınmış İstehsalçılardan Premium İçkilər Dünyasını kəşf edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cola.png", to: "" },
   { id: 2, title: "Şirniyyatlar, şokoladlar və digər", span: "şəkərli ləzzətlə", text: "Dad qönçələrini ləzzətləndirən və şirin ləzzətlərdən həzz alan seçimləri araşdırın", img: "/assets/icon/grid.svg", slideImage: "/assets/img/confectionary.png", to: "" },
   { id: 3, title: "Premium spirtli içkilər dünyasına", span: "addım atın", text: "Dünyanın ən məşhur içki zavodları və üzüm bağlarından əldə edilən yüksək keyfiyyətli içkilər", img: "/assets/icon/grid.svg", slideImage: "/assets/img/alcholic.png", to: "" },
   { id: 4, title: "Gözəlliyin sübutu olduğu məkana", span: "xoş gəlmisiniz", text: "Dəbdəbəli teksturalar, canlı çalarlar və transformasiyalı formulalar dünyasını əhatə edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cosmetic.png", to: "" },
@@ -39,11 +39,10 @@ export const SocialLinks = [
 ]
 
 export const CategoryLinks = [
-  { id: 1, to: "/CategoryPage", title: "İçkilər", className: "productsLinks", className2: "beveragesLink", className3: "linkFonts" },
-  { id: 2, to: "/ConfetCategory", title: "Şirniyyatlar", className: "productsLinks", className2: "confectLink", className3: "linkFonts" },
-  { id: 3, to: "/", title: "Alkoqol", className: "productsLinks", className2: "alcoholLink", className3: "linkFonts" },
-  { id: 4, to: "/CosmeticCategory", title: "Kosmetika", className: "productsLinks", className2: "cosmeticsLink", className3: "linkFonts" },
-  { id: 5, to: "/CleanCategory", title: "Gigiyena& Təmizlik", className: "productsLinks", className2: "cleanlinessLink", className3: "linkFonts" },
+  { id: 1, to: "/CategoryPage", title: "İçkilər", imageSrc: "/assets/img/beverages.png", alt: "Beverages Image" },
+  { id: 2, to: "/ConfetCategory", title: "Şirniyyatlar", imageSrc: "/assets/img/confectionarys.png", alt: "confect image" },
+  { id: 4, to: "/CosmeticCategory", title: "Kosmetika", imageSrc: "/assets/img/cosmetics.png", alt: "cosmetics image" },
+  { id: 5, to: "/CleanCategory", title: "Gigiyena&Təmizlik", imageSrc: "/assets/img/clean.png", alt: "cleanliness Image" },
 ]
 
 export const FooterLeftLinks = [
@@ -54,9 +53,9 @@ export const FooterLeftLinks = [
 ]
 
 export const FooterRightLinks = [
-  { id: 1, to: "/About", title: "İçkilər" },
-  { id: 2, to: "/News", title: "Şirniyyatlar" },
-  { id: 3, to: "/Contacts", title: "Alkoqollu içkilər" },
+  { id: 1, to: "/CategoryPage", title: "İçkilər" },
+  { id: 2, to: "/ConfetCategory", title: "Şirniyyatlar" },
+  { id: 2, to: "/CosmeticCategory", title: "Kosmetika" },
 ]
 
 export const CarouseUpLinks = [

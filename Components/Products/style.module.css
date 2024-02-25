@@ -7,7 +7,7 @@
   padding-top: 5rem;
 }
 
-.sectionTitles {
+.flex {
   display: flex;
 }
 
@@ -17,7 +17,7 @@
 
 .sectioTitle {
   font: 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
-  margin-right: 3.33rem;
+  margin: 0 3.33rem 3rem 0;
 }
 
 .white {
@@ -29,54 +29,59 @@
 }
 
 .sectionProducts {
-  display: flex;
   flex-wrap: wrap;
 }
 
-.beveragesLink {
-  background: url(../../public/assets/img/beverages.png) no-repeat center top / cover ;
-  padding: 1.5rem 9rem 15rem 3rem;
-}
-
-.confectLink {
-  background: url(../../public/assets/img/confectionarys.png) no-repeat center top / cover ;
-  padding: 1.5rem 9rem 15rem 2.5rem;
-}
-
-.alcoholLink {
-  background: url(../../public/assets/img/alchol.png) no-repeat center top / cover ;
-  padding: 1.5rem 9rem 15rem 3rem;
-}
-
-.cosmeticsLink {
-  background: url(../../public/assets/img/cosmetics.png) no-repeat center top / cover ;
-  padding: 1.5rem 7rem 15rem 2.5rem;
-}
-
-.cleanlinessLink {
-  background: url(../../public/assets/img/clean.png) no-repeat center top / cover ;
-  padding: 10px 16rem 15rem 2.5rem;
-  width: 8ch;
-}
-
-.linkFonts {
-  font: 1.44em/107.7% "PlayFairDisplay-Medium", sans-serif;
+.browse {
+  font: 1.44em/107.7% "RadioCanada-Medium", sans-serif;
   color: var(--white);
+  width: 15.5rem;
+  padding: 1rem 0;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid var(--white);
+  margin-right: 30px;
 }
 
-.productsLinks {
-  margin: 3rem 6rem 0 0;
-  border-bottom: 2px solid var(--white);
+.browse:hover {
+  background-color: #63DEA6;
+  color: var(--black, #000);
 }
 
-@media (max-width:1280px) {
-  .productsLinks {
-    margin: 3rem 5rem 0 0;
+.plus {
+  margin-inline: 10px;
+}
+
+@media (max-width:480px) {
+  .sectioItems {
+    padding-top: 1rem;
+  }
+
+  .sectioTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sectionTitles {
+    display: block;
+  }
+
+  .sectionText {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .sectionProducts {
+    justify-content: center;
+  }
+
+  .browse {
+    margin-bottom: 20px;
   }
 }
 
 @media (max-width:360px) {
-  .section {
+   .section {
     padding-top: 4rem;
   }
    .sectioItems {
@@ -101,27 +106,6 @@
     font-size: 1em;
     text-align: justify;
   }
-  
-  .sectionProducts {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .beveragesLink,
-  .confectLink,
-  .alcoholLink,
-  .cosmeticsLink,
-  .cleanlinessLink {
-    padding: 1.5rem 2rem 15rem 1.5rem;
-    width: 100%; 
-  }
    
-  .linkFonts {
-    font-size: 1.30em;
-  }
-  
-  .productsLinks {
-    margin: 2.2rem 1rem 0 0;
-  }
- 
  }
+
