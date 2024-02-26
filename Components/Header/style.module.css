@@ -155,6 +155,12 @@
   outline-offset: 5px;
 }
 
+@media (max-width:1920px) {
+  .nav {
+    width: 32.5vw;
+   }
+}
+
 @media (max-width:992px) {
   .nav {
     width: 42vw;
@@ -162,6 +168,16 @@
 }
 
 @media (max-width:560px) {
+  .listText {
+    display: none;
+   }
+
+   .listIcon {
+    width: 2.9rem;
+    height: 2rem;
+    margin-bottom: 10px;
+   }
+
   .nav {
     width: 100vw;
    }
