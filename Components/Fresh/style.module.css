@@ -50,6 +50,65 @@
   padding: 5rem 0;
 }
 
+@media (max-width:1024px) {
+  .aboutItems {
+    margin: 1.5rem 0;
+  }
+  
+  .flex,
+  .aboutImage,
+  .operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colaSprite {
+    width: 50vw;
+    height: 50vh;
+  }
+  
+  .aboutTextCont {
+    border-left: none;
+    width: 90vw; 
+    height: 15rem;
+  }
+  
+  .aboutText {
+    font-size: 1.2em;  
+    padding: 0rem 0.9rem;
+    text-align: center;
+  }
+  
+  .aboutTitle {
+    font-size: 2.2em;
+  }
+  
+  .operation {
+    margin-bottom: 3rem;
+  }
+  
+  .operationText {
+    width: 90vw;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 3rem 0.5rem; 
+  }
+}
+
+@media (max-width:680px) {
+  .aboutTextCont {
+    border-left: 1px solid;
+    width: 100vw; 
+    height: 18rem;
+  }
+
+  .colaSprite {
+    width: 93vw;
+    height: auto;
+  }
+}
+
 @media (max-width:480px) {
   .aboutItems {
     margin: 1.5rem 0;
@@ -71,6 +130,7 @@
   .aboutTextCont {
     border-left: 1px solid;
     width: 100vw; 
+    height: 30rem;
   }
   
   .aboutText {
