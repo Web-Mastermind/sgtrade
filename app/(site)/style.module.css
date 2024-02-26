@@ -35,6 +35,18 @@
   display: inline-flex;
 }
 
+@media (max-width: 1090px) {
+  #swiperWrapper {
+    margin-top: 0.5rem;
+    height: 65vh;
+  }
+
+  .mainTitle{
+    font-weight: 500;
+    font-size: 2.0em;
+  }
+}
+
 @media (max-width: 1024px) {
   .mainTitle{
     font-weight: 500;
@@ -43,6 +55,16 @@
 }
 
 @media (max-width: 992px) {
+  #swiperWrapper {
+    margin-top: 0.5rem;
+    height: 60vh;
+  }
+
+  .mainTitle{
+    font-weight: 500;
+    font-size: 2.0em;
+  }
+
   .swiperItemsMain {
     padding: 3rem 2rem 0 2rem;
   }
@@ -64,55 +86,57 @@
     font-size: 0.9em;
   }
 }
-
-@media (max-width: 480px) {
-
-  #swiperWrapper{
-    height: 47rem;
+@media (max-width: 700px) {
+  #swiperWrapper {
+    margin-top: 1rem;
+    height: 55.5vh;
   }
-  
+}
+
+
+@media (max-width: 600px) {
+  #swiperWrapper {
+    margin-top: 5rem;
+    height: 27.5vh;
+  }
+ 
   .swiperItemsMain {
-    padding: 3rem 1.5rem 0 1.5rem;
-  }
-  
-  .flex {
-    flex-direction: column; 
-    align-items: center; 
-    
+    padding: 2rem 1.5rem 0 2.5rem;
+    margin-top: 1rem;
   }
   
   .mainTitle {
-    font-size: 1.8em;
-    margin-bottom: 0.8em; 
-    text-align: center; 
+    font-size: 1.5em;
+    margin-bottom: 0.6em; 
+   
   }
   
   .mainText {
-    font-size: 1em;
-    margin-bottom: 2.4em; 
-    text-align: center; 
+    font-size: 0.75em; 
+    margin-bottom: 1.8em; 
   }
   
   .linkItems {
-    font-size: 0.9em;
-    padding: 15px 16px; 
-    display: inline-block; 
-    margin: 0 0  0rem 5rem;
+    font-size: 0.8em; 
+    padding: 10px 12px; 
+    margin: 0.5em 0; 
   }
   
   .sliderImgItem {
-    width: 90vw;
-    height: 90vw;
-   }
-
+    width: 100%; 
+    height: 100%; 
+    margin-top: 20px; 
+  }
 }
 
-@media (max-width:360px) {
-  .sliderContainer {
-    height: 100vh;
+
+@media (max-width:480px) {
+  #swiperWrapper {
+    height: 76.5vh;
   }
+ 
   .swiperItemsMain {
-    padding: 3rem 1rem 0 1rem;
+    padding: 3rem 0.1rem 0 0.1rem;
     margin-top: 4rem;
   }
   
@@ -130,14 +154,14 @@
   .mainText {
     font-size: 1em;
     margin-bottom: 2.4em; 
-    text-align: center; 
+    text-align: justify; 
   }
   
   .linkItems {
     font-size: 0.9em;
     padding: 15px 16px; 
     display: inline-block; 
-    margin: 0 0  1em 40px;
+    margin: 0 0 0.5em 4rem;
   }
   
   .sliderImgItem {
