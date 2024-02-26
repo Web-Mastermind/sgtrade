@@ -8,17 +8,17 @@ const AlcoholSection = () => {
       <section className={styles.alcoholSection}>
         <div className="container">
           <div className={styles.alcoholCompany}>
-            <h3 className={styles.alcoholTitle}>Coca-Cola şirkəti sərinləşdirici içkilərin topdan satışı - bazarda ən yaxşı şərtlər</h3>
-            <p className={styles.alcoholText}>Coca-Cola Alkoqolsuz İçkilər Kataloq səhifəmizə xoş gəlmisiniz, burada yüksək keyfiyyətli Coca-Cola içkilərinin müxtəlif seçimi var. Üstünlükləri kəşf edin:</p>
+            <h3 className={styles.alcoholTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias possimus quasi</h3>
+            <p className={styles.alcoholText}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam exercitation</p>
             <ul className={styles.alcoholList}>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>İkonik ləzzətlər: Sprite kimi təravətləndirici seçimlər və Fanta-nın meyvəli ləzzəti ilə yanaşı, Coca-Cola Original-ın əbədi dadından həzz alın.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Müxtəlif dadlar: Klassik Coca-Cola Originaldan tutmuş ləzzətli Sprite və Fanta-nın meyvəli profillərinə qədər bir sıra ləzzətləri araşdırın.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Çoxsaylı Ölçülər: Biznes ehtiyaclarınızı ödəmək üçün müxtəlif ölçülərdən, o cümlədən tək xidmət qutuları və daha böyük butulkalardan seçin.</p></li>
-              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Müxtəlif qablaşdırma: Kataloqumuz bazar tələbləriniz üçün çeviklik təmin edən qutular, PET şüşələr və şüşə butulkalar kimi müxtəlif qablaşdırma variantları təklif edir.</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
+              <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
             </ul>
-            <p className={styles.alcoholText}>Coca-Cola sərinləşdirici içkilərimiz, Sprite və Fanta ilə topdansatış təkliflərinizi artırın. Fərqli dadları, müxtəlif ölçüləri və müxtəlif qablaşdırma növləri ilə bu içkilər müştərilərinizin zövqünə uyğun olacaq.</p>
+            <p className={styles.alcoholText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod architecto illum iusto deleniti temporibus voluptatibus officia quaerat, doloremque quo eligendi voluptatem eveniet quibusdam non esse aspernatur? Eius doloribus iste nemo.</p>
             <Image className={styles.alcoholImage} src="/assets/img/jagermeister.png" alt="jagermeister image" width={630} height={355} />
-            <p className={styles.alcoholTextEnd}>Coca-Cola sərinləşdirici içkilərimiz, Sprite və Fanta ilə topdansatış təkliflərinizi artırın. Fərqli dadları, müxtəlif ölçüləri və müxtəlif qablaşdırma növləri ilə bu içkilər müştərilərinizin zövqünə uyğun olacaq.</p>
+            <p className={styles.alcoholTextEnd}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam culpa nulla quis saepe. Quo nostrum suscipit in ipsum</p>
           </div>
         </div>
       </section>
