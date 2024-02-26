@@ -15,3 +15,10 @@
   color: var(--black);
   font: 1.2em/107.7% "Gotham-Light", sans-serif;
 }
+
+
+@media (max-width:600px) {
+  .accordionContainer {
+    display: none;
+  }
+}
