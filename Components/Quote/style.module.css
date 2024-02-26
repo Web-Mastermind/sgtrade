@@ -59,33 +59,33 @@
 
 @media (max-width: 992px) {
   .articleTitle {
-    font-size: 2em; /* Adjust font size */
-    margin-right: 1.5rem; /* Reduce margin */
+    font-size: 2em;
+    margin-right: 1.5rem;
   }
 
   .articleItems {
-    padding-top: 3rem; /* Adjust padding */
+    padding-top: 3rem;
   }
 
   .trophy {
-    margin-top: 3rem; /* Adjust margin */
+    margin-top: 3rem;
+    flex-wrap: wrap;
   }
 
   .trophyItems {
-    max-width: 100%; /* Adjust max-width */
+    max-width: 100%;
   }
 
   .trophyTitle {
-    font-size: 1.2em; /* Adjust font size */
+    font-size: 1.2em;
   }
 
   .trophyText {
-    font-size: 0.9em; /* Adjust font size */
+    font-size: 0.9em;
   }
 }
 
-
-@media (max-width:360px) {
+@media (max-width:480px) {
   .articleItems {
     padding-top: 2rem;
   }
