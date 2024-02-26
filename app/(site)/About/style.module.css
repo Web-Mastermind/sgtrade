@@ -28,9 +28,26 @@
   width: 27em;
 }
 
+@media (max-width:620px) {
+  .aboutTitle {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .aboutImage {
+    display: flex;
+    margin: 2rem auto;
+  }
+
+  .aboutText {
+    font-size: 0.95em;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+}
+
 @media (max-width:480px) {
   .aboutTitle {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
   }
 
@@ -40,7 +57,7 @@
   }
 
   .aboutText {
-    font-size: 0.93em;
+    font-size: 0.70em;
     padding-bottom: 2rem;
     text-align: justify;
   }
@@ -58,7 +75,7 @@
   }
 
   .aboutText {
-    font-size: 0.7em;
+    font-size: 0.6em;
     padding-bottom: 2rem;
     text-align: center;
   }
