@@ -39,6 +39,26 @@
   font:  0.88em/0.83em "Gotham-Regular", sans-serif;
 }
 
+@media (max-width:1300px) {
+  .newsItems {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:1024px) {
+  .newsItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsTitle {
+    text-align: center;
+  }
+}
+
 @media (max-width:480px) {
   .newsItems {
     display: flex;
