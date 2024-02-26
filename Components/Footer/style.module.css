@@ -92,6 +92,41 @@ margin-bottom: 1.5rem;
   margin-top: 3rem;
 }
 
+@media (max-width:800px) {
+  .footerItems {
+    flex-direction: column;
+  }
+
+  .footerContainer {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+  }
+
+  .footerUpContainer,
+  .footerText,
+  .footerRightText {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+  .adress {
+    max-width: 10ch;
+  }
+
+  .barcodeImg,
+  .adress {
+    margin-bottom: 1.5rem;
+  }
+
+  .rightLinks {
+    justify-content: space-around;
+  }
+
+  .Destiny {
+    margin-top: 1.0rem;
+  }
+}
+
 @media (max-width:480px) {
    .footerItems {
     flex-direction: column;
