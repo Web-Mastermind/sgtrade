@@ -12,8 +12,8 @@
 }
 
 .mainTitle {
-  color: var(--white);
-  font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  color: var(--white, #fff);
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
   margin-bottom: 1.20em;
 }
 
@@ -31,8 +31,9 @@
   color: var(--black, #111010);
   background: var(--green, #63DEA6);
   font: 1em "RadioCanada-Medium", sans-serif;
-  padding: 19px 20px;
-  display: inline-flex;
+  padding: 19px 0;
+  width: 30%;
+  justify-content: center;
 }
 
 @media (max-width: 1090px) {
@@ -88,8 +89,44 @@
 }
 @media (max-width: 700px) {
   #swiperWrapper {
+    margin-top: 6rem;
+    height: 100%;
+  }
+
+  .swiperItemsMain {
+    padding: 2rem 1.5rem 0 2.5rem;
     margin-top: 1rem;
-    height: 55.5vh;
+  }
+  
+  .mainTitle {
+    font-size: 1.7em;
+    margin-bottom: 0.6em; 
+   
+  }
+  
+  .mainText {
+    font-size: 0.9em; 
+    margin-bottom: 1.8em; 
+  }
+  
+  .linkItems {
+    font-size: 0.7em;
+    padding: 10px 11px; 
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .buttonIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .sliderImgItem {
+    width: 100%; 
+    height: 100%; 
+    margin-top: 20px; 
   }
 }
 
@@ -97,7 +134,7 @@
 @media (max-width: 600px) {
   #swiperWrapper {
     margin-top: 5rem;
-    height: 27.5vh;
+    height: 29vh;
   }
  
   .swiperItemsMain {
@@ -117,9 +154,17 @@
   }
   
   .linkItems {
-    font-size: 0.8em; 
-    padding: 10px 12px; 
-    margin: 0.5em 0; 
+    font-size: 0.7em;
+    padding: 10px 11px; 
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .buttonIcon {
+    width: 20px;
+    height: 20px;
   }
   
   .sliderImgItem {
@@ -157,12 +202,17 @@
   }
   
   .linkItems {
-    font-size: 0.6em;
+    font-size: 0.7em;
     padding: 10px 11px; 
-    display: flex;
-    width: fit-content;
-    align-items: center; 
-    margin: 0 0 0.5em 3rem;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; 
+    margin: 0 0 0.5em 2.8rem;
+  }
+
+  .buttonIcon {
+    width: 20px;
+    height: 20px;
   }
   
   .sliderImgItem {
@@ -205,11 +255,17 @@
   .linkItems {
     font-size: 0.6em;
     padding: 10px 11px; 
-    display: flex;
-    width: fit-content;
-    align-items: center; 
-    margin: 0 0 0.5em 3rem;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; 
+    margin: 0 0 0.5em 2.5rem;
   }
+
+  .buttonIcon {
+    width: 18px;
+    height: 18px;
+  }
+  
   
   .sliderImgItem {
     width: 100%;
@@ -229,7 +285,7 @@
     padding: 3rem 2rem 0 2rem;
     margin-top: 1.5rem;
   }
-  
+
   .flex {
     flex-direction: column; 
     align-items: center; 
@@ -250,10 +306,15 @@
   .linkItems {
     font-size: 0.6em;
     padding: 10px 11px; 
-    display: flex;
-    width: fit-content;
-    align-items: center; 
-    margin: 0 0 0.5em 3rem;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center; 
+    margin: 0 0 0.5em 2rem;
+  }
+
+  .buttonIcon {
+    width: 16px;
+    height: 16px;
   }
   
   .sliderImgItem {
