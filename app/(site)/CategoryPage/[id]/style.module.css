@@ -4,7 +4,7 @@
 
 .singleTitle,
 .logisticTitle {
-  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;  
+  font: 3em/107% "RadioCanada-Medium", sans-serif;  
   padding: 4rem 0 3rem;
 }
 
@@ -194,8 +194,8 @@
   }
   
   .singleImage {
-    width: 84vw;
-    height: auto;
+    width: 89.4%;
+    height: 90%;
   } 
 
   .requestContainer {
