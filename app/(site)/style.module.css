@@ -129,15 +129,14 @@
   }
 }
 
-
 @media (max-width:480px) {
   #swiperWrapper {
-    height: 76.5vh;
+    height: 56vh;
   }
  
   .swiperItemsMain {
-    padding: 3rem 0.1rem 0 0.1rem;
-    margin-top: 4rem;
+    padding: 3rem 2rem 0 2rem;
+    margin-top: 1.5rem;
   }
   
   .flex {
@@ -146,29 +145,122 @@
   }
   
   .mainTitle {
-    font-size: 2em;
-    margin-bottom: 0.8em; 
+    font-size: 1em;
+    margin-bottom: 0.5em; 
     text-align: center; 
   }
   
   .mainText {
-    font-size: 1em;
+    font-size: 0.5em;
     margin-bottom: 2.4em; 
     text-align: justify; 
   }
   
   .linkItems {
-    font-size: 0.9em;
-    padding: 15px 16px; 
-    display: inline-block; 
-    margin: 0 0 0.5em 4rem;
+    font-size: 0.6em;
+    padding: 10px 11px; 
+    display: flex;
+    width: fit-content;
+    align-items: center; 
+    margin: 0 0 0.5em 3rem;
   }
   
   .sliderImgItem {
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
     padding: 15px ;
-    margin-top: 50px; 
+    margin-top: 30px; 
+   }
+
+}
+
+
+@media (max-width:360px) {
+  #swiperWrapper {
+    height: 62vh;
+  }
+ 
+  .swiperItemsMain {
+    padding: 3rem 2rem 0 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .flex {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .mainTitle {
+    font-size: 1em;
+    margin-bottom: 0.5em; 
+    text-align: center; 
+  }
+  
+  .mainText {
+    font-size: 0.5em;
+    margin-bottom: 2.4em; 
+    text-align: justify; 
+  }
+  
+  .linkItems {
+    font-size: 0.6em;
+    padding: 10px 11px; 
+    display: flex;
+    width: fit-content;
+    align-items: center; 
+    margin: 0 0 0.5em 3rem;
+  }
+  
+  .sliderImgItem {
+    width: 100%;
+    height: 100%;
+    padding: 15px ;
+    margin-top: 30px; 
+   }
+
+}
+
+@media (max-width:320px) {
+  #swiperWrapper {
+    height: 75vh;
+  }
+ 
+  .swiperItemsMain {
+    padding: 3rem 2rem 0 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  .flex {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .mainTitle {
+    font-size: 1em;
+    margin-bottom: 0.5em; 
+    text-align: center; 
+  }
+  
+  .mainText {
+    font-size: 0.5em;
+    margin-bottom: 2.4em; 
+    text-align: justify; 
+  }
+  
+  .linkItems {
+    font-size: 0.6em;
+    padding: 10px 11px; 
+    display: flex;
+    width: fit-content;
+    align-items: center; 
+    margin: 0 0 0.5em 3rem;
+  }
+  
+  .sliderImgItem {
+    width: 100%;
+    height: 100%;
+    padding: 15px ;
+    margin-top: 30px; 
    }
 
 }

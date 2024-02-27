@@ -73,8 +73,13 @@
 
 @media (max-width:480px) {
   .brandsTitle {
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom: 1rem;
+  }
+
+  .brandsText {
+    font-size: 1em;
+    line-height: 1.5;
   }
 }
 
@@ -89,7 +94,7 @@
   }
 
   .brandsText {
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.5;
   }
 

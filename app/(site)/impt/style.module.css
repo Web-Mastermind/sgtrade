@@ -60,6 +60,11 @@
     text-align: center;
   }
 
+  .width {
+    width: 100%;
+    padding: 0 20px 0 0;
+  }
+
   .importImage {
     display: flex;
     margin: 1.5rem auto;
@@ -67,25 +72,23 @@
 
   .importText {
     font-size: 0.9em; 
-    width: 95vw;
     text-align: justify;
   }
 }
 
 @media (max-width:360px) {
   .importTitle {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
   }
 
   .importImage {
-    display: flex;
     margin: 1.5rem auto;
   }
 
   .importText {
     font-size: 0.7em; 
-    width: 95vw;
-    text-align: center;
+    width: 100%;
+    text-align: left;
   }
 }

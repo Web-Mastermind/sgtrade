@@ -60,8 +60,8 @@
   }
 
   .sectionContactsLinks {
-    font-size: 1em;
-    margin: 0 1rem;
+    font-size: 0.7em;
+    margin: 0 1.3rem;
   }
 
   .contactIcon {
@@ -69,8 +69,14 @@
   }
 
   .contactWorld {
-    height: 17vh;
+    height: 16.5vh;
    }
+
+   .contactIcon {
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;
+  }
 }
 
 

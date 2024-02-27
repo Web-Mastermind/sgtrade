@@ -80,6 +80,20 @@
   }
 }
 
+@media (max-width:480px) {
+  .sectioTitle {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+   .sectionText {
+    font-size: 0.6em;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width:360px) {
    .section {
     padding-top: 4rem;
@@ -97,13 +111,13 @@
   }
   
   .sectioTitle {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 15px;
     text-align: center;
   }
   
    .sectionText {
-    font-size: 1em;
+    font-size: 0.6em;
     text-align: justify;
   }
    
