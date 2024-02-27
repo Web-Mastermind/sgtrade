@@ -27,7 +27,7 @@ const Single = async ({ params }: any) => {
                     <Link className={`${styles.requestLinkItem} ${styles.white}`} href="/Send">Sorğu göndərin</Link>
                   </div>
                 </div>
-                <p className={styles.singleFeatures}>Xüsusiyyətləri</p>
+                <p className={`${styles.singleFeatures} ${styles.white}`}>Xüsusiyyətləri</p>
                 <div className={`${styles.featuresInfo} ${styles.flex} ${styles.bgBlack}`}>
                   <div className={styles.featuresInfoLeftContainer}>
                     {

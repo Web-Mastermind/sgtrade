@@ -1,23 +1,25 @@
 .alcoholCompany {
-  width: 630px;
+  width: 35rem;
   margin: 0 auto;
 }
 
+.white {
+  color: var(--white, #fff);
+}
+
 .alcoholTitle {
-color: var(--white);
-font:  2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+font: 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
 margin: 4rem 0 2.5rem;
 }
 
 .alcoholText,
 .alcoholTextEnd {
-color: var(--grey);
+color: var(--grey, #C8C8C8);
 font: 1em/125% "RadioCanada-Light", sans-serif;
 }
 
 .alcoholList {
   margin: 2.2rem;
-  color: var(--white);
 }
 
 .listText,

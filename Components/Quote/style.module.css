@@ -1,6 +1,6 @@
 .articleTitle {
   color: var(--white, #FFF);
-  font: 500 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  font: 2.66em/107.7% "PlayFairDisplay-Medium", sans-serif;
   margin-right: 3rem;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .articleTextItems {
-  border-bottom: 3px solid var(--green);
+  border-bottom: 3px solid var(--green, #63DEA6);
   height: 50px;
 }
 
@@ -27,7 +27,7 @@
 
 .articleText {
   color: var(--green, #63DEA6);
-  font: 500 1em "RadioCanada-Regular", sans-serif;
+  font: 1em "RadioCanada-Regular", sans-serif;
 }
 
 .trophy {
@@ -43,7 +43,7 @@
 
 .trophyTitle {
   color: var(--sky, #E2F3FD);
-  font: 500 1.44em/107.7% "PlayFairDisplay-Medium", sans-serif;
+  font: 1.44em/107.7% "PlayFairDisplay-Medium", sans-serif;
   margin: 2rem 0;
 }
 

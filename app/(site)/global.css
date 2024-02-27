@@ -16,6 +16,7 @@
   border: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
@@ -34,7 +35,7 @@ html,
 body {
   font-family: "RadioCanada-Regular";
   font-size: 18px;
-  background: var(--main-dark-gradient);
+  background: var(--main-dark-gradient, linear-gradient(217deg, #242627 1.99%, #161718 101.43%));
   overflow-x: hidden;
 }
 

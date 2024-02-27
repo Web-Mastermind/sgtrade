@@ -3,15 +3,17 @@
   padding: 7rem 0;
 }
 
+.white {
+  color: var(--white, #fff);
+}
+
 .brandsTitle {
-  color: var(--white);
-  font: 700 3em/107% "PlayFairDisplay-Bold", sans-serif;
+  font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
   margin-bottom: 1.5rem;
 }
 
 .brandsText {
-  color: var(--white);
-  font: 300 1.22em/145% "RadioCanada-Light", sans-serif;
+  font: 1.22em/145% "RadioCanada-Light", sans-serif;
   margin-bottom: 2.5rem;  
 }
 
@@ -29,7 +31,7 @@
 }
 
 .slider {
-  height: 110px;
+  height: 6rem;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -38,9 +40,9 @@
 .slider::before, .slider::after {
   background: linear-gradient(to right, rgb(33, 33, 33) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 5.7rem;
   position: absolute;
-  width: 200px;
+  width: 12rem;
   z-index: 2;
 }
 
@@ -58,7 +60,7 @@
 .slider .slideTrack {
   animation: scroll 40s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(12rem * 14);
 }
 
 .slideTrack:hover {
@@ -68,7 +70,7 @@
 .slider .slide {
   display: flex;
   align-items: center;
-  width: 250px;
+  width: 15rem;
 }
 
 @media (max-width:480px) {

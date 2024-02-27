@@ -10,12 +10,12 @@ const Contacts = () => {
       <main className={styles.mainContacts}>
         <div className="container">
           <div className={styles.contactsItems}>
-            <h2 className={styles.contactsTitle}>Əlaqə</h2>
+            <h2 className={`${styles.contactsTitle} ${styles.white}`}>Əlaqə</h2>
             <div className={styles.contactsContainer}>
               <div className={styles.contactsMain}>
                 <div className={`${styles.contactsLink} ${styles.flex}`}>
-                  <Link className={`${styles.contactsUpLinks} ${styles.phone} ${styles.flex}`} href="tel:+370 613 15 157"><Image className={styles.linkIcons} src="/assets/icon/phone.svg" alt="Phone icon" width={30} height={30} />+370 613 15 157</Link>
-                  <Link className={`${styles.contactsUpLinks} ${styles.flex}`} href="mailto:info@sgtrade.lt"><Image className={styles.linkIcons} src="/assets/icon/mail.svg" alt="Phone icon" width={30} height={30} /> info@sgtrade.lt</Link>
+                  <Link className={`${styles.contactsUpLinks} ${styles.phone} ${styles.flex} ${styles.white}`} href="tel:+370 613 15 157"><Image className={styles.linkIcons} src="/assets/icon/phone.svg" alt="Phone icon" width={30} height={30} />+370 613 15 157</Link>
+                  <Link className={`${styles.contactsUpLinks} ${styles.flex} ${styles.white}`} href="mailto:info@sgtrade.lt"><Image className={styles.linkIcons} src="/assets/icon/mail.svg" alt="Phone icon" width={30} height={30} /> info@sgtrade.lt</Link>
                 </div>
                 <div className={`${styles.textItems} ${styles.flex}`}>
                   <div className={styles.contactsText}>
@@ -24,9 +24,9 @@ const Contacts = () => {
                     <p className={styles.leftTextItem} >Address</p>
                   </div>
                   <div className={styles.contactsRightText}>
-                    <p className={styles.rightTextItem} >305937503</p>
-                    <p className={styles.rightTextItem} >LT100015566211</p>
-                    <p className={`${styles.rightTextItem} ${styles.adress}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
+                    <p className={`${styles.rightTextItem} ${styles.white}`} >305937503</p>
+                    <p className={`${styles.rightTextItem} ${styles.white}`} >LT100015566211</p>
+                    <p className={`${styles.rightTextItem} ${styles.adress} ${styles.white}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
                   </div>
                   <div className={`${styles.contactsBarcode} ${styles.flex}`}>
                     {

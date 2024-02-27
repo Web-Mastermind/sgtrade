@@ -6,8 +6,11 @@
   padding: 7rem 0;
 }
 
+.white {
+  color: var(--white, #fff);
+}
+
 .importTitle{
-  color: var(--white);
   font: 3em/107% "PlayFairDisplay-Bold", sans-serif;
 }
 
@@ -16,7 +19,6 @@
 }
 
 .importText {
-  color: var(--white);
   font: 1.22em/145% "RadioCanada-Light", sans-serif;
 }
 

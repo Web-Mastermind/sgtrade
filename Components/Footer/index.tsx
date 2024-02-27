@@ -12,8 +12,8 @@ const Footer = () => {
         <div className={styles.footerItems}>
           <div className={styles.footerContainer}>
             <div className={styles.footerUpContainer}>
-              <Link className={styles.footerUpLinks} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
-              <Link className={`${styles.footerUpLinks} ${styles.phone}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
+              <Link className={`${styles.footerUpLinks} ${styles.white}`} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
+              <Link className={`${styles.footerUpLinks} ${styles.phone} ${styles.white}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
               <div className={styles.textItems}>
                 <div className={styles.footerText}>
                   <p className={styles.leftTextItem} >Registry code:</p>
@@ -21,9 +21,9 @@ const Footer = () => {
                   <p className={styles.leftTextItem} >Address</p>
                 </div>
                 <div className={styles.footerRightText}>
-                  <p className={styles.rightTextItem} >305937503</p>
-                  <p className={styles.rightTextItem} >LT100015566211</p>
-                  <p className={`${styles.rightTextItem} ${styles.adress}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
+                  <p className={`${styles.rightTextItem} ${styles.white}`} >305937503</p>
+                  <p className={`${styles.rightTextItem} ${styles.white}`} >LT100015566211</p>
+                  <p className={`${styles.rightTextItem} ${styles.adress} ${styles.white}`} >J.J Krasevskio st.7-1,Vilnius, LT-08118,Lithuania</p>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => {
               <Link className={styles.footerNavLinks} href="/Catalog"><Image className={styles.navIcons} src="/assets/icon/catalog.svg" alt="" width={20} height={20} />Kataloq</Link>
               {
                 FooterRightLinks.map(({ id, to, title }) => {
-                  return (<Link key={id} className={styles.footerNavRightLinks} href={to}>{title}</Link>)
+                  return (<Link key={id} className={`${styles.footerNavRightLinks} ${styles.white}`} href={to}>{title}</Link>)
                 })
               }
             </div>

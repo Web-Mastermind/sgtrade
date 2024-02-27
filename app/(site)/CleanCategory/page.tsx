@@ -40,7 +40,7 @@ const CleanCategory = async () => {
           <h3 className={`${styles.marketingText} ${styles.white}`}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti qui, at inventor</h3>
           <div className={styles.listItem}>
             <p className={styles.alcoholText}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi porro vel, excepturi cupiditate saepe beatae eos illum unde sapiente.</p>
-            <ul className={styles.alcoholList}>
+            <ul className={`${styles.alcoholList} ${styles.white}`}>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam asperiores vitae accusamus nesciunt labore, odio in nam rerum harum animi</p></li>

@@ -34,17 +34,16 @@
 
 .browse {
   font: 1.44em/107.7% "RadioCanada-Medium", sans-serif;
-  color: var(--white);
   width: 15.5rem;
   padding: 1rem 0;
   transition: all 0.5s ease-in-out;
-  border: 1px solid var(--white);
+  border: 1px solid var(--white, #fff);
   margin-right: 30px;
 }
 
 .browse:hover {
   background-color: #63DEA6;
-  color: var(--black, #000);
+  color: var(--black, #111010);
 }
 
 .plus {

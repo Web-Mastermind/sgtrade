@@ -20,13 +20,13 @@ const Request = () => {
       <div className="container">
         <div className={styles.sectionItems}>
           <div data-aos="zoom-in" className={styles.mainItems}>
-            <h5 className={`${styles.sectionTitle} ${styles.center}`}>Təklif əldə <span className={styles.sectionSpan} >edin!</span></h5>
-            <Link className={`${styles.sectionLinks} ${styles.center}`} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
-            <Link className={`${styles.sectionLinks} ${styles.phone} ${styles.center}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
+            <h5 className={`${styles.sectionTitle} ${styles.center} ${styles.white}`}>Təklif əldə <span className={`${styles.sectionSpan} ${styles.electric}`} >edin!</span></h5>
+            <Link className={`${styles.sectionLinks} ${styles.center} ${styles.white}`} href="mailto:info@sgtrade.lt">info@sgtrade.lt</Link>
+            <Link className={`${styles.sectionLinks} ${styles.phone} ${styles.center} ${styles.white}`} href="tel:+370 613 15 157">+370 613 15 157</Link>
           </div>
           <div data-aos="flip-down" className={`${styles.sectionContacts} ${styles.center} ${styles.flex}`}>
             <Link className={`${styles.sectionContactsLinks} ${styles.contactLink} ${styles.flex}`} href="/Contacts"><Image className={styles.contactIcon} src="/assets/icon/book.svg" alt="Contact Icon" width={22} height={22} />Bütün kontaktlar</Link>
-            <Link className={`${styles.sectionContactsLinks} ${styles.requestLink} ${styles.flex}`} href="/Send"><Image className={styles.contactIcon} src="/assets/icon/send.svg" alt="Contact Icon" width={22} height={22} />Sorğu göndərmək</Link>
+            <Link className={`${styles.sectionContactsLinks} ${styles.requestLink} ${styles.flex} ${styles.electric}`} href="/Send"><Image className={styles.contactIcon} src="/assets/icon/send.svg" alt="Contact Icon" width={22} height={22} />Sorğu göndərmək</Link>
           </div>
           <div className={styles.wroldItem}>
             <Image className={styles.contactWorld} src={world} alt="Earth Image" />

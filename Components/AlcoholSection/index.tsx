@@ -8,9 +8,9 @@ const AlcoholSection = () => {
       <section className={styles.alcoholSection}>
         <div className="container">
           <div className={styles.alcoholCompany}>
-            <h3 className={styles.alcoholTitle}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias possimus quasi</h3>
+            <h3 className={`${styles.alcoholTitle} ${styles.white}`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias possimus quasi</h3>
             <p className={styles.alcoholText}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam exercitation</p>
-            <ul className={styles.alcoholList}>
+            <ul className={`${styles.alcoholList} ${styles.white}`}>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus reiciendis culpa nulla quis saepe. Quo nostrum suscipit in ipsum aliquam</p></li>

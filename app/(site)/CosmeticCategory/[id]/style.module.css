@@ -26,11 +26,11 @@
 }
 
 .black {
-  color: var(--black, #000);  
+  color: var(--black, #111010);  
 }
 
 .bgBlack {
-  background-color: var(--black, #000);
+  background-color: var(--black, #111010);
 }
 
 .singlesubText {
@@ -47,12 +47,10 @@
 }
 
 .requestLinkItem {
-  color: var(--white);
   font: 1em/0.94em "Gotham-Light", sans-serif; 
 }
 
 .singleFeatures {
-  color: var(--white);
   font: 1.44em/108% "PlayFairDisplay-Medium", sans-serif ;  
   margin: 12px;
 }

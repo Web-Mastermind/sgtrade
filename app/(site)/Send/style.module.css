@@ -40,11 +40,11 @@
 }
 
 .borderWhite {
-  border: 1px solid var(--white);
+  border: 1px solid var(--white, #fff);
 }
 
 .colorBlack {
-  background-color: var(--black);
+  background-color: var(--black, #111010);
   padding: 1rem;
 
 }

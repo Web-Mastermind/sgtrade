@@ -30,7 +30,6 @@ const Home = () => {
                 disableOnInteraction: false,
               }}
               modules={[Autoplay, Navigation]}
-
               navigation={true} className={styles.swiper}>
               {
                 SwiperLinks.map(({ id, title, span, text, img, slideImage, to, toText }) => {

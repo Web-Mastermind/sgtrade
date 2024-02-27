@@ -21,7 +21,7 @@
 }
 
 .headerList {
-  border-bottom: 3px solid var(--electric);
+  border-bottom: 3px solid var(--electric, #04C1C1);
   height: 50px;
 }
 
@@ -30,12 +30,12 @@
 }
 
 .listText {
-  font: 500 18px "RadioCanada-Medium", sans-serif;
+  font: 1em "RadioCanada-Medium", sans-serif;
   background: var(--electric-gradient, linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
-  border-bottom: 3px solid linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  border-bottom: 3px solid var(--electric-gradient, linear-gradient(262deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%));
 }
 
 .nav {
@@ -52,7 +52,7 @@
   padding-inline: 2rem;
   transition: all 0.5s;
   flex-direction: column;
-  background-color: var(--black);
+  background-color: var(--black, #111010);
   filter: drop-shadow(0px 0px 7px rgba(3, 60, 70, 0.4));
 }
 
@@ -67,7 +67,7 @@
 }
 
 .navLinks {
-  color: var(--electric);
+  color: var(--electric, #04C1C1);
   display: flex;
   align-items: center;
 }
@@ -77,20 +77,20 @@
 }
 
 .nav .navLinks:first-child {
-  color: var(--white);
-  font: 400 1.22em "Gotham-Regular", sans-serif;
+  color: var(--white, #fff);
+  font: 1.22em "Gotham-Regular", sans-serif;
 }
 
 .nav .navLinks:nth-child(2) {
   font-size: 18px;
-  color:var(--white);
+  color:var(--white, #fff);
   font-family: "Gotham-Light", sans-serif;
 }
 
 .menu,
 .hideMenu {
-  --s: 30px; /* control the size */
-  --c: #04c1c1c1; /* the color */
+  --s: 30px;
+  --c: #04c1c1c1;
   
   height: var(--s);
   aspect-ratio: 1;

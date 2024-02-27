@@ -6,7 +6,7 @@
 }
 
 .white {
-  color: var(--white);
+  color: var(--white, #fff);
 }
 
 .newsReqsub {
@@ -25,12 +25,12 @@
 
 .requestText {
   width: 32ch;
-  color: var(--black);
+  color: var(--black, #111010);
   font: 0.88em/125% "Gotham-Light", sans-serif;
 }
 
 .requestLink {
-  background-color: var(--black);
+  background-color: var(--black, #111010);
   padding: 0.7rem 0.7rem;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .subscribeLink {
-  background-color: var(--white);
+  background-color: var(--white, #fff);
   padding: 0.3rem 1.5rem;
 }
 

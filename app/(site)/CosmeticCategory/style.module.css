@@ -23,7 +23,7 @@
 .productAdd {
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--black);
+  background-color: var(--black, #111010);
   padding: 1rem 0;
 }
 
@@ -38,7 +38,7 @@
 
 .alcoholText,
 .alcoholTextEnd {
-color: var(--grey);
+color: var(--grey, #C8C8C8);
 font: 1em/125% "RadioCanada-Light", sans-serif;
 }
 
@@ -48,7 +48,6 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
 
 .alcoholList {
   margin: 2.2rem;
-  color: var(--white);
 }
 
 .listText,

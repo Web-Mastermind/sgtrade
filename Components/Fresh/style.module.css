@@ -15,13 +15,13 @@
 
 .aboutTextCont {
   margin-top: 40px;
-  border-left: 2px solid var(----electric, #04C1C1);
+  border-left: 2px solid var(--electric, #04C1C1);
   height: 30rem;
   width: 30em;
 }
 
 .aboutText {
-  color: var(--sky);
+  color: var(--sky, #E2F3FD);
   font: 1.22em/145% "RadioCanada-Light", sans-serif;  
   padding: 0rem 0 2rem 2rem;
 }
@@ -31,7 +31,7 @@
 }
 
 .aboutTitle {
-  color: var(--electric);
+  color: var(--electric, #04C1C1);
   font: 2em/107.7% "PlayFairDisplay-Regular", sans-serif;
   text-align: center;  
 }
@@ -44,7 +44,7 @@
 
 .operationText {
   width: 42rem;
-  color: var(--grey);
+  color: var(--grey, #C8C8C8);
   font: 1.55em/145% "RadioCanada-Regular", sans-serif;
   text-align: center;
   padding: 5rem 0;

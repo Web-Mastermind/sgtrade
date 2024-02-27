@@ -38,7 +38,7 @@ const CategoryPage = async () => {
           <h3 className={`${styles.marketingText} ${styles.white}`}>Coca-Cola şirkəti sərinləşdirici içkilərin topdan satışı - bazarda ən yaxşı şərtlər</h3>
           <div className={styles.listItem}>
             <p className={styles.alcoholText}>Coca-Cola Alkoqolsuz İçkilər Kataloq səhifəmizə xoş gəlmisiniz, burada yüksək keyfiyyətli Coca-Cola içkilərinin müxtəlif seçimi var. Üstünlükləri kəşf edin:</p>
-            <ul className={styles.alcoholList}>
+            <ul className={`${styles.alcoholList} ${styles.white}`}>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>İkonik ləzzətlər: Sprite kimi təravətləndirici seçimlər və Fanta-nın meyvəli ləzzəti ilə yanaşı, Coca-Cola Original-ın əbədi dadından həzz alın.</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Müxtəlif dadlar: Klassik Coca-Cola Originaldan tutmuş ləzzətli Sprite və Fanta-nın meyvəli profillərinə qədər bir sıra ləzzətləri araşdırın.</p></li>
               <li className={styles.alcoholListItems}><p className={`${styles.alcoholText} ${styles.listText}`}>Çoxsaylı Ölçülər: Biznes ehtiyaclarınızı ödəmək üçün müxtəlif ölçülərdən, o cümlədən tək xidmət qutuları və daha böyük butulkalardan seçin.</p></li>

@@ -29,7 +29,7 @@ const Products = () => {
               return (<div key={id} className={styles.productLinkItems}>
                 <Image data-aos="zoom-out" src={imageSrc} alt="Beverages Image" width={305} height={312} />
                 <div className={`${styles.productBrowse} ${styles.flex}`}>
-                  <Link className={`${styles.browse} ${styles.flex}`} href={to}><Image className={styles.plus} src="assets/icon/plus.svg" alt={alt} width={25} height={25} />{title}</Link>
+                  <Link className={`${styles.browse} ${styles.flex} ${styles.white}`} href={to}><Image className={styles.plus} src="assets/icon/plus.svg" alt={alt} width={25} height={25} />{title}</Link>
                 </div>
               </div>)
             })

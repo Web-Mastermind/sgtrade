@@ -4,15 +4,15 @@
 }
 
 .accordionBackground {
-  background-color: var(--black);
+  background-color: var(--black, #111010);
 }
 
 .typoColor {
-  background-color: var(--electric);
+  background-color: var(--electric, #04C1C1);
 }
 
 .typoTitle {
-  color: var(--black);
+  color: var(--black, #111010);
   font: 1.2em/107.7% "Gotham-Light", sans-serif;
 }
 
