@@ -179,7 +179,7 @@
    }
 
   .nav {
-    width: 100vw;
+    width: 95vw;
    }
 }
 
@@ -197,7 +197,25 @@
   height: 3.1rem;
  }
  .nav {
-  width: 100vw;
+  width: 95vw;
  }
 }
+
+@media (max-width:320px) {
+  .listText {
+   display: none;
+  }
+  .listIcon {
+   width: 2.5rem;
+   height: 1.8rem;
+   margin-bottom: 9px;
+  }
+  .barcodeImg {
+   width: 6.5rem;
+   height: 3.1rem;
+  }
+  .nav {
+   width: 95vw;
+  }
+ }
 
