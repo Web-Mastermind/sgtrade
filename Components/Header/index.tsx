@@ -21,8 +21,7 @@ const Header = () => {
       <div className="container">
         <div className={`${styles.headerItems} ${styles.flex}`}>
           <div className={`${styles.headerList} ${styles.flex}`}>
-            <Image className={styles.listIcon} src="/assets/icon/list.svg" alt="list icon" width={22} height={22} />
-            <Link href="/Send"><p className={styles.listText}>Təklif əldə edin</p></Link>
+            <Link className={styles.flex} href="/Send"><Image className={styles.listIcon} src="/assets/icon/list.svg" alt="list icon" width={22} height={22} /><p className={styles.listText}>Təklif əldə edin</p></Link>
           </div>
           <Link href="/"><Image className={styles.barcodeImg} src="/assets/icon/barcode.png" alt="Barcode icon" width={156} height={60} /></Link>
           <div className={styles.burgerIcon}>
