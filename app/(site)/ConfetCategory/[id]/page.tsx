@@ -18,7 +18,7 @@ const Single = async ({ params }: any) => {
           <div className={styles.singleItems}>
             <h2 className={`${styles.singleTitle} ${styles.white}`}>{data.singleTitle}</h2>
             <div className={`${styles.singleImageItems} ${styles.flex}`}>
-              <Image src={data.singleImage} alt="Coca Cola 0.33ml can Image" width={500} height={450} />
+              <Image className={styles.singleImage} src={data.singleImage} alt="Confectionary Image" width={500} height={450} />
               <div className={styles.singleMainContainer}>
                 <div className={`${styles.requestContainer} ${styles.flex}`}>
                   <p className={`${styles.singlesubText} ${styles.black}`}>Anbarda</p>

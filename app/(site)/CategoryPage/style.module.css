@@ -38,7 +38,7 @@
 
 .alcoholText,
 .alcoholTextEnd {
-color: var(--grey);
+color: var(--grey, #676767);
 font: 1em/125% "RadioCanada-Light", sans-serif;
 }
 
@@ -48,7 +48,7 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
 
 .alcoholList {
   margin: 2.2rem;
-  color: var(--white);
+  color: var(--white, #fff);
 }
 
 .listText,

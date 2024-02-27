@@ -47,12 +47,12 @@
 }
 
 .requestLinkItem {
-  color: var(--white);
+  color: var(--white, #fff);
   font: 1em/0.94em "Gotham-Light", sans-serif; 
 }
 
 .singleFeatures {
-  color: var(--white);
+  color: var(--white, #fff);
   font: 1.44em/108% "PlayFairDisplay-Medium", sans-serif ;  
   margin: 12px;
 }
