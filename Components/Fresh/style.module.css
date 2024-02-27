@@ -109,6 +109,14 @@
   }
 }
 
+@media (max-width:500px) {
+  .aboutTextCont {
+    border-left: 1px solid;
+    width: 100vw; 
+    height: 25rem;
+  }
+}
+
 @media (max-width:480px) {
   .aboutItems {
     margin: 1.5rem 0;

@@ -1,9 +1,8 @@
 export const SwiperLinks = [
-  { id: 1, title: "Eksklüziv içkilərin etibarlı", span: "idxal mənbəniz", text: "Birbaşa Tanınmış İstehsalçılardan Premium İçkilər Dünyasını kəşf edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cola.png", to: "" },
-  { id: 2, title: "Şirniyyatlar və digər", span: "şəkərli ləzzətlər", text: "Dad qönçələrini ləzzətləndirən və şirin ləzzətlərdən həzz alan seçimləri araşdırın", img: "/assets/icon/grid.svg", slideImage: "/assets/img/confectionary.png", to: "" },
-  { id: 3, title: "Premium spirtli içkilər dünyasına", span: "addım atın", text: "Dünyanın ən məşhur içki zavodları və üzüm bağlarından əldə edilən yüksək keyfiyyətli içkilər", img: "/assets/icon/grid.svg", slideImage: "/assets/img/alcholic.png", to: "" },
-  { id: 4, title: "Gözəlliyin sübutu olduğu məkana", span: "xoş gəlmisiniz", text: "Dəbdəbəli teksturalar, canlı çalarlar və transformasiyalı formulalar dünyasını əhatə edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cosmetic.png", to: "" },
-  { id: 5, title: "Daha təmiz və sağlam həyat", span: "tərzinə doğru", text: "Seçilmiş gigiyena məhsullarımız arasında əminliklə gedin, sağlamlıq və təhlükəsizlik məqsədlərinizə uyğun olan", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cleaning.webp", to: "" },
+  { id: 1, title: "Eksklüziv içkilərin etibarlı", span: "idxal mənbəniz", text: "Birbaşa Tanınmış İstehsalçılardan Premium İçkilər Dünyasını kəşf edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cola.png", to: "/CategoryPage", toText: "İçkilər" },
+  { id: 2, title: "Şirniyyatlar və digər", span: "şəkərli ləzzətlər", text: "Dad qönçələrini ləzzətləndirən və şirin ləzzətlərdən həzz alan seçimləri araşdırın", img: "/assets/icon/grid.svg", slideImage: "/assets/img/confectionary.png", to: "/ConfetCategory", toText: "Şirniyyatlar" },
+  { id: 3, title: "Gözəlliyin sübutu olduğu məkana", span: "xoş gəlmisiniz", text: "Dəbdəbəli teksturalar, canlı çalarlar və transformasiyalı formulalar dünyasını əhatə edin", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cosmetic.png", to: "/CosmeticCategory", toText: "Kosmetika" },
+  { id: 4, title: "Daha təmiz və sağlam həyat", span: "tərzinə doğru", text: "Seçilmiş gigiyena məhsullarımız arasında əminliklə gedin, sağlamlıq və təhlükəsizlik məqsədlərinizə uyğun olan", img: "/assets/icon/grid.svg", slideImage: "/assets/img/cleaning.webp", to: "/CleanCategory", toText: "Gigiyena&Təmizlik" },
 ]
 
 export const NavLinks = [
