@@ -118,7 +118,7 @@
   color: var(--white, #fff);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
 
   .singleTitle,
   .logisticTitle {
@@ -174,8 +174,89 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+  .logisticTitle {
+    font-size: 3em;
+    padding: 3rem 0 2rem;
+  }
+
+  .singleTitle {
+    font-size: 2em;
+  }
   
+  .flex {
+    flex-wrap: wrap;
+  }
+  
+  .singleImageItems {
+    gap: 10px; 
+    margin-left: 1.5rem;
+  }
+  
+  .singleImage {
+    width: 84vw;
+    height: auto;
+  } 
+
+  .requestContainer {
+    align-items: center;
+    justify-content: center;
+    width: 84vw;
+    padding: 1.5rem 0;
+  }
+  
+  .singlesubText {
+    font-size: 0.9em;
+  }
+  
+  .requestLink {
+    padding: 0.5rem;
+  }
+  
+  .requestLinkItem {
+    font-size: 1em;
+  }
+  
+  .singleFeatures {
+    font-size: 1.5em;
+    margin: 8px;
+  }
+  
+  .featuresInfoItems {
+    gap: 5px; 
+  }
+  
+  .featuresInfo {
+    justify-content: space-around;
+    gap: 13px;
+    padding: 0.5rem ;
+  }
+  
+  .map:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+  
+  .featuresTextItem,
+  .featuresMainTextItem {
+   font-size: 0.9em;
+  }
+  
+  .logisticTitle {
+    padding: 1.5rem 0 1rem;
+  }
+  
+  .logisticContainer {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .logisticItems {
+    margin: 0 auto;
+    padding: 0.5rem 0.25rem 0.1rem; 
+  }
+
 }
 
 @media (max-width:600px) {
