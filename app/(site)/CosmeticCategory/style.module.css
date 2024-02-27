@@ -55,3 +55,136 @@ font: 1em/125% "RadioCanada-Light", sans-serif;
 .alcoholTextEnd {
   margin-bottom: 1.5rem;
 }
+
+@media (max-width:600px) {
+  .productInfoContainer {
+    justify-content: center;
+  }
+
+  .categoryTitle {
+    font-size: 2.5em;
+    padding: 2.5rem 0;
+    text-align: center; 
+  }
+}
+
+@media (max-width:480px) {
+  .categoryPage {
+    margin-top: 4rem;
+  }
+  
+  .categoryTitle {
+    font-size: 2em;
+    padding: 2rem 0; 
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productInfoContainer {
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .productAdd {
+    width: 100%;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  
+  .productText {
+    font-size: 0.9em;
+  }
+  
+  .marketingText {
+    font-size: 1.3em;
+    padding: 2rem 0;
+  }
+  
+  .alcoholText,
+  .alcoholTextEnd {
+    font-size: 0.9em;
+  }
+  
+  .alcoholText {
+    margin-bottom: 2rem;
+  }
+  
+  .alcoholList {
+    margin: 1.2rem;
+  }
+  
+  .listText,
+  .alcoholTextEnd {
+    margin-bottom: 1rem;
+  }
+  
+}
+
+@media (max-width:360px) {
+  .categoryPage {
+    margin-top: 4rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.5em;
+    padding: 2rem 0; 
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .productAdd {
+    width: 100%;
+    flex-direction: row;
+    padding: 1rem;
+  }
+
+  .plusIcon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .productText {
+    font-size: 0.8em;
+  }
+  
+  .marketingText {
+    font-size: 1.3em;
+    padding: 2rem 0;
+  }
+  
+  .alcoholText,
+  .alcoholTextEnd {
+    font-size: 0.9em;
+  }
+  
+  .alcoholText {
+    margin-bottom: 2rem;
+  }
+  
+  .alcoholList {
+    margin: 1.2rem;
+  }
+  
+  .listText,
+  .alcoholTextEnd {
+    margin-bottom: 1rem;
+  }
+  
+}
+
+@media (max-width:320px) {
+  .productIdImages {
+    width: 90vw;
+  }
+  .productAdd {
+    width: 100%;
+    flex-direction: row;
+    padding: 0.7rem;
+  }
+}
