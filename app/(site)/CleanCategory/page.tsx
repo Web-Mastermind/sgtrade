@@ -27,7 +27,7 @@ const CleanCategory = async () => {
                       <div key={id} className={styles.productInfo}>
                         <Image className={styles.productIdImages} src={imageSrc} alt={alt} width={305} height={277} />
                         <div className={`${styles.productAdd} ${styles.flex}`}>
-                          <Link href={`/CleanCategory/${id}`}><Image src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
+                          <Link href={`/CleanCategory/${id}`}><Image className={styles.plusIcon} src="/assets/icon/plus.svg" alt="Buy Item Button" width={31} height={31} /></Link>
                           <p className={`${styles.productText} ${styles.white}`}>{text}</p>
                         </div>
                       </div>
