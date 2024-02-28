@@ -5,6 +5,7 @@
 
 .accordionBackground {
   background-color: var(--black, #111010);
+  color: var(--white, #fff);
 }
 
 .typoColor {
