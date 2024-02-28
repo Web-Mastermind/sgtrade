@@ -224,6 +224,11 @@
 
 }
 
+@media (max-width:390px) {
+  #swiperWrapper {
+    height: 74vh;
+  }
+}
 
 @media (max-width:360px) {
   #swiperWrapper {
